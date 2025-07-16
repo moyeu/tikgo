@@ -1,0 +1,57 @@
+{
+  "title": "À propos de TikGo",
+  "description": "TikGo vous aide à télécharger des vidéos TikTok sans filigranes, rapidement et gratuitement.",
+  "intro": "TikGo a été lancé en 2024 pour simplifier le téléchargement des vidéos TikTok. Aucun logiciel requis : utilisez simplement votre navigateur pour enregistrer des vidéos instantanément.",
+
+  "mission": {
+    "title": "Notre mission",
+    "content": "Notre objectif est de fournir un moyen rapide, simple et fiable de télécharger des vidéos et des photos de TikTok sans filigranes."
+  },
+
+  "services": {
+    "title": "Nos services",
+    "video_downloader": "Téléchargez des vidéos TikTok sans filigranes.",
+    "slideshow_downloader": "Enregistrez des photos et vidéos depuis les diaporamas TikTok.",
+    "story_downloader": "Téléchargez des stories TikTok au format MP4.",
+    "tiktok_to_mp3": "Convertissez des vidéos TikTok en audio MP3."
+  },
+
+  "advantages": {
+    "title": "Pourquoi choisir TikGo ?",
+    "no_watermark": "Vidéos propres : sans filigranes ni logos.",
+    "free": "Entièrement gratuit : aucun frais caché.",
+    "cross_platform": "Compatible avec tous les appareils : mobile, tablette ou PC.",
+    "high_quality": "Qualité HD : obtenez la meilleure résolution vidéo.",
+    "easy_to_use": "Facile à utiliser : pas d'inscription ni de téléchargement d'application.",
+    "multilingual": "Supporte plusieurs langues."
+  },
+
+  "values": {
+    "title": "Nos valeurs",
+    "community": "Axé sur les utilisateurs : nous écoutons et nous améliorons.",
+    "trustworthy": "Respect de la vie privée : nous ne stockons aucun téléchargement.",
+    "easy_to_use": "Conçu pour être accessible à tous."
+  },
+
+  "feedback": {
+    "title": "Votre avis compte",
+    "content": "Nous aimerions connaître votre avis ! Aidez-nous à nous améliorer en partageant vos retours.",
+    "link": "Contactez-nous"
+  },
+
+  "community": {
+    "title": "Rejoignez notre communauté",
+    "content": "Des milliers d’utilisateurs font confiance à TikGo pour télécharger rapidement et facilement des vidéos TikTok. Rejoignez-nous !"
+  },
+
+  "contact": {
+    "title": "Contactez-nous",
+    "description": "Si vous avez des questions sur nos services, souhaitez signaler un problème ou collaborer sur de la publicité, n'hésitez pas à nous contacter.",
+    "contact_info": "Vous pouvez nous contacter par les moyens suivants :",
+    "telegram": "Telegram",
+    "email": "E-mail",
+    "form_instruction": "Ou envoyez-nous un message directement via le formulaire ci-dessous :",
+    "loading": "Chargement..."
+  }
+
+}

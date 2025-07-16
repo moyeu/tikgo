@@ -1,0 +1,26 @@
+{
+  "title": "Chính Sách Quyền Riêng Tư",
+  "description": "Tài liệu này mô tả cách TikGo bảo vệ quyền riêng tư của người dùng. Vui lòng đọc kỹ và liên hệ với chúng tôi nếu có bất kỳ thắc mắc nào.",
+
+  "intro": "TikGo cam kết bảo vệ quyền riêng tư của người dùng và cung cấp trải nghiệm duyệt web an toàn. Dưới đây là thông tin chi tiết về cách chúng tôi xử lý dữ liệu cá nhân và các loại dữ liệu khác.",
+
+  "personal_info": {
+    "title": "Thông Tin Cá Nhân và Quyền Riêng Tư",
+    "content": "TikGo cho phép người dùng truy cập dịch vụ mà không cần cung cấp thông tin cá nhân. Chúng tôi không thu thập hay lưu trữ dữ liệu nhận dạng trừ khi người dùng tự nguyện cung cấp. Nếu phát hiện thông tin sai lệch hoặc gây hiểu lầm, TikGo có quyền hạn chế quyền truy cập vào nền tảng."
+  },
+
+  "policy_changes": {
+    "title": "Cập Nhật Chính Sách Quyền Riêng Tư",
+    "content": "TikGo có thể cập nhật chính sách quyền riêng tư để nâng cao tính minh bạch và bảo mật. Nếu có thay đổi quan trọng, chúng tôi sẽ đăng thông báo trên trang chủ. Người dùng nên thường xuyên kiểm tra trang này để cập nhật cách chúng tôi bảo vệ thông tin cá nhân của bạn."
+  },
+
+  "advertising": {
+    "title": "Quảng Cáo và Cookie",
+    "content": "Để hỗ trợ nền tảng, TikGo hiển thị quảng cáo từ các đối tác bên thứ ba. Những đối tác này có thể sử dụng cookie để thu thập dữ liệu duyệt web không mang tính cá nhân. Tuy nhiên, không có dữ liệu cá nhân nào như tên hoặc địa chỉ email bị thu thập. Người dùng có thể tắt cookie trong cài đặt trình duyệt hoặc ngừng sử dụng dịch vụ của chúng tôi bất cứ lúc nào."
+  },
+
+  "acceptance": {
+    "title": "Chấp Nhận Điều Khoản",
+    "content": "Bằng cách sử dụng TikGo, bạn xác nhận và đồng ý với chính sách quyền riêng tư này. Nếu không đồng ý với các điều khoản này, vui lòng không sử dụng dịch vụ của chúng tôi. Việc tiếp tục sử dụng nền tảng sau khi chính sách được cập nhật đồng nghĩa với việc bạn chấp nhận các thay đổi đó."
+  }
+}

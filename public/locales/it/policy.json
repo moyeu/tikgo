@@ -1,0 +1,26 @@
+{
+  "title": "Informativa sulla Privacy",
+  "description": "Questo documento descrive l'approccio di TikGo alla privacy degli utenti. Ti invitiamo a leggerlo attentamente e a contattarci in caso di domande.",
+
+  "intro": "TikGo rispetta la privacy degli utenti e si impegna a fornire un'esperienza di navigazione sicura. Di seguito sono riportati i dettagli su come gestiamo le informazioni personali e altri dati.",
+
+  "personal_info": {
+    "title": "Dati Personali e Privacy",
+    "content": "TikGo consente agli utenti di accedere ai nostri servizi senza dover fornire informazioni personali. Non raccogliamo né memorizziamo dati identificativi a meno che non vengano forniti volontariamente. Se rileviamo informazioni false o fuorvianti, TikGo si riserva il diritto di limitare l'accesso alla piattaforma."
+  },
+
+  "policy_changes": {
+    "title": "Aggiornamenti della Politica sulla Privacy",
+    "content": "TikGo può aggiornare questa politica sulla privacy per migliorare la trasparenza e la sicurezza. In caso di modifiche significative, pubblicheremo un avviso sulla nostra homepage. Ti consigliamo di controllare regolarmente questa pagina per rimanere informato su come proteggiamo la tua privacy."
+  },
+
+  "advertising": {
+    "title": "Pubblicità e Cookie",
+    "content": "Per supportare la piattaforma, TikGo mostra annunci pubblicitari da partner di terze parti. Questi inserzionisti possono utilizzare cookie per raccogliere dati di navigazione non personali. Tuttavia, non vengono raccolti dati personali come nomi o indirizzi email. Gli utenti possono disabilitare i cookie nelle impostazioni del browser o interrompere l'uso dei nostri servizi in qualsiasi momento."
+  },
+
+  "acceptance": {
+    "title": "Accettazione dei Termini",
+    "content": "Utilizzando TikGo, riconosci e accetti questa politica sulla privacy. Se non sei d'accordo con questi termini, ti invitiamo a non utilizzare i nostri servizi. Continuare a utilizzare la piattaforma dopo eventuali aggiornamenti di questa politica implica l'accettazione delle modifiche apportate."
+  }
+}

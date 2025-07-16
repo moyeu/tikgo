@@ -1,0 +1,86 @@
+/* 🔹 Header chính */
+.header {
+  padding: 12px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #ffffff;*/
+}
+
+/* 🔹 Container giới hạn chiều rộng */
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;
+  width: 100%;
+}
+
+/* 🔹 Logo */
+.logo a {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+
+/* 🔹 Language switcher */
+.languageSwitcher {
+  position: relative;
+  display: inline-block;
+}
+
+/* 🔹 Nút chọn ngôn ngữ */
+.dropdownButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background 0.3s ease, color 0.3s ease;
+  color: black;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.dropdownButton:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* 🔹 Dropdown menu */
+.dropdownMenu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  min-width: 160px;
+  padding: 5px 0;
+  z-index: 100;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+/* 🔹 Mục trong dropdown */
+.dropdownMenu a {
+  display: flex;
+  align-items: center;
+  padding: 10px 14px;
+  font-size: 14px;
+  text-decoration: none;
+  color: black;
+  white-space: nowrap; /* Ngăn chữ tràn dòng */
+  gap: 8px;
+  transition: background 0.3s ease;
+}
+
+.dropdownMenu a:hover {
+  background: #f0f0f0;
+}

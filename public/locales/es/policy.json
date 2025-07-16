@@ -1,0 +1,26 @@
+{
+  "title": "Política de Privacidad",
+  "description": "Este documento describe el enfoque de TikGo sobre la privacidad del usuario. Léalo atentamente y contáctenos si tiene alguna pregunta.",
+
+  "intro": "En TikGo, valoramos la privacidad de nuestros usuarios y nos comprometemos a proporcionar una experiencia de navegación segura. A continuación, detallamos cómo gestionamos la información personal y otros datos.",
+
+  "personal_info": {
+    "title": "Datos Personales y Privacidad",
+    "content": "TikGo permite a los usuarios acceder a nuestros servicios sin necesidad de proporcionar información personal. No recopilamos ni almacenamos datos identificativos a menos que el usuario los proporcione voluntariamente. Si detectamos información falsa o engañosa, TikGo se reserva el derecho de restringir el acceso a la plataforma."
+  },
+
+  "policy_changes": {
+    "title": "Actualizaciones de la Política de Privacidad",
+    "content": "TikGo puede actualizar esta política de privacidad cuando sea necesario para mejorar la transparencia y la seguridad. En caso de cambios significativos, publicaremos un aviso en nuestra página principal. Recomendamos revisar esta página regularmente para mantenerse informado sobre cómo protegemos la privacidad de los usuarios."
+  },
+
+  "advertising": {
+    "title": "Publicidad y Cookies",
+    "content": "Para respaldar nuestra plataforma, TikGo muestra anuncios de terceros. Estos anunciantes pueden utilizar cookies para recopilar datos de navegación no personales. Sin embargo, no se recopilan datos personales como nombres o direcciones de correo electrónico. Los usuarios pueden desactivar las cookies en la configuración de su navegador o dejar de utilizar nuestros servicios en cualquier momento."
+  },
+
+  "acceptance": {
+    "title": "Aceptación de los Términos",
+    "content": "Al utilizar TikGo, reconoce y acepta esta política de privacidad. Si no está de acuerdo con estos términos, le pedimos que no utilice nuestros servicios. El uso continuo de la plataforma después de cualquier actualización de esta política indica su aceptación de los términos revisados."
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "clipboard_error": "お使いのブラウザはクリップボードをサポートしていないか、許可が拒否されています。",
+  "clipboard_empty": "クリップボードが空です！もう一度リンクをコピーしてください。",
+  "clipboard_permission_denied": "クリップボードから貼り付けできません！手動でリンクを入力してください。",
+  "paste_placeholder": "ここにTikTokのURLを貼り付けてください...",
+  "paste_button": "貼り付け",
+  "download_button": "ダウンロード",
+  "page_not_found": "ページが見つかりません",
+  "oops_message": "おっと！お探しのページは存在しません。",
+  "go_home": "ホームに戻る",
+  "loading": "処理中...",
+  "how_to_download": "ダウンロード手順の動画を見るにはクリックしてください",
+  "video_found": "動画が見つかりました：",
+  "download_now": "今すぐダウンロード",
+  "download_another": "別の動画をダウンロード",
+  "no_download_options": "ダウンロードオプションがありません。",
+  "cancel_download": "ダウンロードをキャンセル",
+  "footer": {
+    "tools": "ツール",
+    "company": "会社",
+    "follow_us": "フォローする",
+    "terms": "利用規約",
+    "privacy": "プライバシーポリシー",
+    "about": "会社概要",
+    "contact": "お問い合わせ",
+    "tiktok_video": "TikTok動画ダウンローダー",
+    "tiktok_mp3": "TikTokからMP3への変換",
+    "tiktok_slide": "TikTok写真ダウンローダー",
+    "tiktok_story": "TikTokストーリーダウンローダー",
+    "copyright": "TikGo Downloader. 無断転載を禁じます。"
+  },
+
+  "shareMessage": " 人が過去1時間に共有しました！",
+  "popupTitle": "🚀 共有してダウンロード速度をアップ！",
+  "popupDescription": "このウェブサイトを共有すると、ダウンロード速度が向上し、ダウンロード数も増えます！",
+  "shareButton": "今すぐ共有",
+  "skipButton": "スキップ",
+  "copyLink": "リンクをコピー",
+  "copySuccess": "コピー成功"
+
+
+}

@@ -1,0 +1,41 @@
+{
+  "clipboard_error": "Seu navegador não suporta a área de transferência ou a permissão foi negada.",
+  "clipboard_empty": "A área de transferência está vazia! Por favor, copie o link novamente.",
+  "clipboard_permission_denied": "Não é possível colar da área de transferência! Insira o link manualmente.",
+  "paste_placeholder": "Cole a URL do TikTok aqui...",
+  "paste_button": "Colar",
+  "download_button": "Baixar",
+  "page_not_found": "Página não encontrada",
+  "oops_message": "Ops! A página que você está procurando não existe.",
+  "go_home": "Ir para a página inicial",
+  "loading": "Processando...",
+  "how_to_download": "Clique para assistir ao vídeo tutorial de download",
+  "video_found": "Vídeo encontrado:",
+  "download_now": "Baixar agora",
+  "download_another": "Baixar outro vídeo",
+  "no_download_options": "Nenhuma opção de download disponível.",
+  "cancel_download": "Cancelar download",
+  "footer": {
+    "tools": "Ferramentas",
+    "company": "Empresa",
+    "follow_us": "Siga-nos",
+    "terms": "Termos de Serviço",
+    "privacy": "Política de Privacidade",
+    "about": "Sobre",
+    "contact": "Contato",
+    "tiktok_video": "Baixador de Vídeos do TikTok",
+    "tiktok_mp3": "Conversor de TikTok para MP3",
+    "tiktok_slide": "Baixador de Fotos do TikTok",
+    "tiktok_story": "Baixador de Histórias do TikTok",
+    "copyright": "TikGo Downloader. Todos os direitos reservados."
+  },
+  
+  "shareMessage": " pessoas compartilharam na última hora!",
+  "popupTitle": "🚀 Compartilhe para obter velocidades de download mais rápidas!",
+  "popupDescription": "Compartilhe este site para receber velocidades de download mais rápidas e aumentar o número de downloads!",
+  "shareButton": "Compartilhar agora",
+  "skipButton": "Pular",
+  "copyLink": "Copiar link",
+  "copySuccess": "Copiado com sucesso"
+
+}

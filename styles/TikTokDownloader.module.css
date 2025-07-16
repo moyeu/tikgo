@@ -1,0 +1,478 @@
+/* 🔹 Nội dung chính */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* 🔹 Ẩn navbar, title, description, inputGroup khi có kết quả */
+.hidden {
+  display: none;
+}
+
+/* 🔹 Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  background: #5a636c;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.navItem {
+  background: transparent;
+  color: white;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background 0.3s ease-in-out;
+}
+
+.navItem.active {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.navItem:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+/* 🔹 Ô nhập URL */
+.inputGroup {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 600px;
+  width: 100%;
+  gap: 10px;
+}
+
+.inputWrapper {
+  display: flex;
+  align-items: center;
+  border: 1px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+  flex: 1;
+}
+
+.input {
+  flex: 1;
+  padding: 18px;
+  font-size: 16px;
+  border: none;
+  outline: none;
+  min-width: 150px;
+}
+
+.pasteButton {
+  background: none;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pasteButton:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.pasteIcon {
+  width: 30px;
+  height: 30px;
+}
+
+.downloadButton {
+  background: #00be63;
+  color: white;
+  padding: 20px 22px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 8px;
+  flex-shrink: 0;
+}
+
+/* 🔹 Responsive cho Mobile */
+@media (max-width: 600px) {
+  .inputGroup {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .downloadButton {
+    width: 100%;
+  }
+}
+
+/* ✅ Style chung cho phần hiển thị kết quả */
+.resultContainer {
+  text-align: center;
+  margin-top: 20px;
+  max-width: 900px;
+}
+
+.author {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.thumbnail {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.caption {
+  font-size: 14px;
+  color: #333;
+  max-width: 250px;
+  margin: 0 auto 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* ✅ Style cho các nút download */
+.downloadOptions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.downloadOption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  padding: 10px 15px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s ease-in-out;
+}
+
+.videoDownload {
+  background-color: #1f5c56;
+}
+
+.audioDownload {
+  background-color: #d9534f;
+}
+
+.downloadOption:hover {
+  opacity: 0.85;
+}
+
+/* ✅ Style cho phần hiển thị ảnh theo dạng 4 cột */
+.imageGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Điều chỉnh số cột linh hoạt */
+  gap: 15px;
+  justify-content: center;
+  margin-top: 15px;
+  width: 100%;
+  max-width: 800px;
+}
+
+/* ✅ Đảm bảo ảnh trong grid có cùng chiều cao */
+.imageItem {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+/* ✅ Cố định chiều cao ảnh để chúng đồng nhất */
+.image {
+  width: 100%;
+  height: 250px; /* Giữ chiều cao đồng nhất */
+  border-radius: 8px;
+  object-fit: cover; /* Cắt ảnh sao cho không bị méo */
+  display: block;
+}
+
+/* ✅ Căn giữa nếu có ít hơn 4 ảnh */
+@media (max-width: 600px) {
+  .imageGrid {
+    grid-template-columns: repeat(2, 1fr); /* Hiển thị 2 ảnh trên mỗi hàng khi màn hình nhỏ */
+  }
+}
+
+.downloadAllWrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.downloadAllButton {
+    background-color: #007bff; /* Màu xanh giống nút Download */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.downloadAllButton:hover {
+    background-color: #0056b3; /* Màu xanh đậm khi hover */
+}
+
+.downloadAllButton:active {
+    background-color: #004494; /* Màu xanh tối hơn khi click */
+}
+
+.downloadAllButton:disabled {
+    background-color: #b3b3b3; /* Màu xám khi bị disable */
+    cursor: not-allowed;
+}
+
+
+/* ✅ Nút download ảnh */
+.imageDownloadButton {
+  display: block;
+  background-color: #007bff;
+  color: white;
+  padding: 8px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-size: 14px;
+  margin-top: 5px;
+  text-align: center;
+  width: 100%;
+  max-width: 200px;
+}
+
+.imageDownloadButton:hover {
+  opacity: 0.85;
+}
+
+
+.downloadAnotherWrapper {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.downloadAnother {
+    display: inline-block;
+	width: 250px;
+    background-color: #007bff;
+    color: white;
+    padding: 12px 18px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    text-align: center;
+    transition: background 0.3s ease-in-out;
+}
+
+.downloadAnother:hover {
+    background-color: #0056b3;
+}
+
+
+/* 🔹 Quảng cáo dạng banner dưới ô nhập liệu */
+.adBanner {
+  width: 100%;
+  height: 90px;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 🔹 Quảng cáo dạng hộp trên kết quả */
+.adBox {
+  width: 100%;
+  max-width: 300px;
+  height: 250px;
+  background: #f5f5f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* 🔹 Tiến trình tải video */
+
+.progressBarContainer {
+    width: 100%;
+    max-width: 300px;
+    height: 12px;
+    background-color: #e0e0e0;
+    border-radius: 6px;
+    overflow: hidden;
+    margin: 10px auto;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.progressBar {
+    height: 100%;
+    background: linear-gradient(90deg, #4CAF50, #8BC34A);
+    width: 0%;
+    transition: width 0.3s ease-in-out;
+    border-radius: 6px;
+}
+
+.progressText {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    color: #333;
+}
+
+.cancelButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #ff4d4d;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: fit-content;
+    transition: background 0.3s ease-in-out;
+    gap: 8px; /* Tạo khoảng cách giữa icon và text */
+}
+
+.cancelButton:hover {
+    background: #e63946;
+}
+
+.cancelIcon {
+    width: 18px; /* Kích thước icon */
+    height: 18px;
+    object-fit: contain; /* Đảm bảo icon không bị méo */
+}
+.error {
+    color: #ff4d4d; /* Màu đỏ nổi bật */
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: left;
+    background: rgba(255, 77, 77, 0.1); /* Nền đỏ nhạt */
+    padding: 8px 12px;
+    border-radius: 5px;
+    border-left: 5px solid #ff4d4d; /* Hiệu ứng thanh cảnh báo */
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+.guideContainer {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.guideText {
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.guideText:hover {
+  color: #0056b3;
+}
+
+.videoContainer {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+.thumbnailContainer {
+  position: relative;
+  width: 100%;
+  max-width: 600px;
+  aspect-ratio: 16 / 9;
+}
+
+.videoThumbnail {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+.playButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-size: 40px;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playButton:hover {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.videoContainer iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 315px;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}

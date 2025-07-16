@@ -1,0 +1,55 @@
+{
+  "title": "Acerca de TikGo",
+  "description": "TikGo te ayuda a descargar videos de TikTok sin marcas de agua, rápido y gratis.",
+  "intro": "TikGo fue lanzado en 2024 para facilitar la descarga de videos de TikTok. No se necesita software: solo usa tu navegador y guarda videos al instante.",
+
+  "mission": {
+    "title": "Nuestra misión",
+    "content": "Nuestro objetivo es proporcionar una forma rápida, sencilla y confiable de descargar videos y fotos de TikTok sin marcas de agua."
+  },
+
+  "services": {
+    "title": "Nuestros servicios",
+    "video_downloader": "Descarga videos de TikTok sin marcas de agua.",
+    "slideshow_downloader": "Guarda fotos y videos de diapositivas de TikTok.",
+    "story_downloader": "Descarga historias de TikTok en formato MP4.",
+    "tiktok_to_mp3": "Convierte videos de TikTok a audio MP3."
+  },
+
+  "advantages": {
+    "title": "¿Por qué elegir TikGo?",
+    "no_watermark": "Videos limpios: sin marcas de agua ni logotipos.",
+    "free": "Completamente gratis: sin tarifas ocultas.",
+    "cross_platform": "Funciona en todos los dispositivos: móvil, tableta o PC.",
+    "high_quality": "Calidad HD: Obtén la mejor resolución de video.",
+    "easy_to_use": "Fácil de usar: sin registros ni descargas de aplicaciones.",
+    "multilingual": "Compatible con múltiples idiomas."
+  },
+
+  "values": {
+    "title": "Nuestros valores",
+    "community": "Enfocados en los usuarios: escuchamos y mejoramos.",
+    "trustworthy": "Privacidad primero: no almacenamos descargas.",
+    "easy_to_use": "Diseñado para todos, sin complicaciones."
+  },
+
+  "feedback": {
+    "title": "Tu opinión es importante",
+    "content": "¡Nos encantaría escuchar tus comentarios! Ayúdanos a mejorar compartiendo tu opinión.",
+    "link": "Contáctanos"
+  },
+
+  "community": {
+    "title": "Únete a nuestra comunidad",
+    "content": "Miles de personas confían en TikGo para descargar videos de TikTok de manera rápida y sencilla. ¡Únete a nosotros!"
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "description": "Si tienes alguna pregunta sobre nuestros servicios, necesitas informar un problema o deseas colaborar en publicidad, no dudes en comunicarte con nosotros.",
+    "contact_info": "Puedes contactarnos a través de los siguientes medios:",
+    "telegram": "Telegram",
+    "email": "Correo electrónico",
+    "form_instruction": "O envíanos un mensaje directamente a través del formulario a continuación:",
+    "loading": "Cargando..."
+  }
+}

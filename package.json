@@ -1,0 +1,35 @@
+{
+  "name": "taivideo",
+  "version": "1.0.0",
+  "description": "Project tải video TikTok",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "postbuild": "node scripts/generate-sitemap.js"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "i18next": "^24.2.2",
+    "next": "^15.1.6",
+    "next-i18next": "^15.4.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-i18next": "^15.4.0",
+    "react-markdown": "^10.0.0"
+  },
+  "devDependencies": {
+    "@next/bundle-analyzer": "^15.2.0",
+    "tailwindcss": "^4.0.0"
+  },
+  "keywords": [
+    "TikTok",
+    "video-downloader",
+    "nextjs",
+    "tailwindcss"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

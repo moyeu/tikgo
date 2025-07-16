@@ -1,0 +1,40 @@
+{
+  "title": "Syarat dan Ketentuan",
+  "description": "Harap baca Syarat dan Ketentuan ini dengan cermat sebelum menggunakan TikGo. Dengan mengakses situs web kami, Anda menyetujui ketentuan ini.",
+  
+  "intro": "Syarat dan Ketentuan ini merupakan perjanjian hukum yang mengikat antara Anda dan TikGo. Dengan menggunakan situs web dan layanan kami, Anda setuju untuk mematuhi ketentuan ini serta kebijakan tambahan yang tercantum di platform kami. Jika Anda tidak menyetujui ketentuan ini, mohon untuk tidak menggunakan TikGo. Konten di situs ini dilindungi oleh undang-undang hak cipta dan kekayaan intelektual.",
+
+  "intellectual_property": {
+    "title": "Kekayaan Intelektual",
+    
+    "use_license": {
+      "title": "Lisensi Penggunaan",
+      "content": "TikGo memberikan lisensi terbatas dan sementara kepada pengguna untuk mengakses dan mengunduh konten hanya untuk penggunaan pribadi dan non-komersial. Lisensi ini tidak mentransfer kepemilikan atas materi, dan berdasarkan perjanjian ini, Anda tidak boleh:\n- Memodifikasi, mendistribusikan ulang, atau menyalin konten.\n- Menggunakan konten untuk tujuan komersial atau tampilan publik.\n- Menghapus pemberitahuan hak cipta atau kepemilikan dari konten.\n- Membagikan, mentransfer, atau meng-host konten di server eksternal."
+    },
+    
+    "copyright": {
+      "title": "Hak Cipta",
+      "content": "TikGo menghormati hak kekayaan intelektual dan mengharapkan pengguna untuk melakukan hal yang sama.\n- Pengguna bertanggung jawab untuk memastikan bahwa mereka memiliki hak hukum untuk mengunduh dan menggunakan konten.\n- TikGo hanya menyediakan akses ke konten yang tersedia secara publik.\n- TikGo tidak memverifikasi status hukum dari konten yang diunduh, dan pengguna harus memastikan kepatuhan terhadap undang-undang hak cipta.\n- Penyalahgunaan atau pelanggaran dapat mengakibatkan pembatasan akses ke layanan kami.\n- TikGo tidak menyimpan atau mengarsipkan konten yang diunduh oleh pengguna."
+    }
+  },
+
+  "disclaimer": {
+    "title": "Penafian",
+    "content": "Konten yang tersedia di TikGo disediakan 'sebagaimana adanya' tanpa jaminan apa pun. TikGo menolak semua jaminan, termasuk jaminan tersirat tentang kelayakan perdagangan dan kesesuaian untuk tujuan tertentu. Kami tidak menjamin keakuratan, keandalan, atau legalitas konten yang tersedia melalui layanan kami."
+  },
+
+  "links": {
+    "title": "Tautan Pihak Ketiga",
+    "content": "TikGo dapat berisi tautan ke situs web eksternal. Kami tidak memantau atau mendukung situs pihak ketiga ini dan tidak bertanggung jawab atas isinya. Mengakses situs web pihak ketiga sepenuhnya merupakan risiko pengguna."
+  },
+
+  "limitations": {
+    "title": "Batasan Tanggung Jawab",
+    "content": "TikGo tidak bertanggung jawab atas kerugian langsung, tidak langsung, insidental, atau konsekuensial yang timbul akibat penggunaan atau ketidakmampuan untuk menggunakan layanan kami. Beberapa yurisdiksi mungkin tidak mengizinkan pembatasan tanggung jawab tertentu, sehingga batasan ini mungkin tidak berlaku untuk semua pengguna."
+  },
+
+  "modifications": {
+    "title": "Perubahan Syarat dan Ketentuan",
+    "content": "TikGo berhak untuk memperbarui ketentuan ini kapan saja tanpa pemberitahuan sebelumnya. Dengan terus menggunakan layanan kami setelah adanya perubahan, Anda menerima ketentuan yang diperbarui."
+  }
+}

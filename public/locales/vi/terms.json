@@ -1,0 +1,40 @@
+{
+  "title": "Điều Khoản Dịch Vụ",
+  "description": "Vui lòng đọc kỹ Điều Khoản Dịch Vụ trước khi sử dụng TikGo. Bằng cách truy cập vào trang web của chúng tôi, bạn đồng ý với các điều khoản này.",
+  
+  "intro": "Điều Khoản Dịch Vụ này là một thỏa thuận pháp lý ràng buộc giữa bạn và TikGo. Khi sử dụng trang web và dịch vụ của chúng tôi, bạn đồng ý tuân thủ các điều khoản này cũng như bất kỳ chính sách bổ sung nào được nêu trên nền tảng của chúng tôi. Nếu bạn không đồng ý với các điều khoản này, vui lòng không sử dụng TikGo. Nội dung trên trang web này được bảo vệ bởi luật bản quyền và sở hữu trí tuệ.",
+
+  "intellectual_property": {
+    "title": "Quyền Sở Hữu Trí Tuệ",
+    
+    "use_license": {
+      "title": "Giấy Phép Sử Dụng",
+      "content": "TikGo cấp cho người dùng một giấy phép tạm thời và có giới hạn để truy cập và tải nội dung chỉ cho mục đích cá nhân và phi thương mại. Giấy phép này không chuyển giao quyền sở hữu nội dung, và theo thỏa thuận này, bạn không được:\n- Chỉnh sửa, phân phối lại hoặc sao chép nội dung.\n- Sử dụng nội dung cho mục đích thương mại hoặc hiển thị công khai.\n- Xóa thông tin bản quyền hoặc quyền sở hữu khỏi nội dung.\n- Chia sẻ, chuyển nhượng hoặc lưu trữ nội dung trên máy chủ bên ngoài."
+    },
+    
+    "copyright": {
+      "title": "Bản Quyền",
+      "content": "TikGo tôn trọng quyền sở hữu trí tuệ và mong muốn người dùng cũng làm như vậy.\n- Người dùng chịu trách nhiệm đảm bảo rằng họ có quyền hợp pháp để tải xuống và sử dụng nội dung.\n- TikGo chỉ cung cấp quyền truy cập vào nội dung có sẵn công khai.\n- TikGo không xác minh tính hợp pháp của nội dung đã tải xuống và người dùng cần đảm bảo tuân thủ luật bản quyền.\n- Bất kỳ hành vi lạm dụng hoặc vi phạm nào có thể dẫn đến việc hạn chế truy cập vào dịch vụ của chúng tôi.\n- TikGo không lưu trữ hoặc lưu giữ nội dung do người dùng tải xuống."
+    }
+  },
+
+  "disclaimer": {
+    "title": "Miễn Trừ Trách Nhiệm",
+    "content": "Nội dung có sẵn trên TikGo được cung cấp 'nguyên trạng' mà không có bất kỳ đảm bảo nào. TikGo từ chối mọi đảm bảo, bao gồm cả các đảm bảo ngầm về tính thương mại và phù hợp với một mục đích cụ thể. Chúng tôi không đảm bảo tính chính xác, độ tin cậy hoặc tính hợp pháp của bất kỳ nội dung nào được cung cấp thông qua dịch vụ của chúng tôi."
+  },
+
+  "links": {
+    "title": "Liên Kết Bên Thứ Ba",
+    "content": "TikGo có thể chứa các liên kết đến trang web bên ngoài. Chúng tôi không kiểm soát hoặc chứng thực những trang web này và không chịu trách nhiệm về nội dung của chúng. Việc truy cập các trang web bên thứ ba hoàn toàn do người dùng tự chịu trách nhiệm."
+  },
+
+  "limitations": {
+    "title": "Giới Hạn Trách Nhiệm",
+    "content": "TikGo không chịu trách nhiệm cho bất kỳ tổn thất trực tiếp, gián tiếp, ngẫu nhiên hoặc hậu quả nào phát sinh từ việc sử dụng hoặc không thể sử dụng dịch vụ của chúng tôi. Một số khu vực pháp lý có thể không cho phép loại trừ một số trách nhiệm pháp lý nhất định, vì vậy những hạn chế này có thể không áp dụng cho tất cả người dùng."
+  },
+
+  "modifications": {
+    "title": "Thay Đổi Điều Khoản",
+    "content": "TikGo có quyền cập nhật các điều khoản này bất kỳ lúc nào mà không cần thông báo trước. Bằng cách tiếp tục sử dụng dịch vụ sau khi có thay đổi, bạn đồng ý với các điều khoản được cập nhật."
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "title": "Kebijakan Privasi",
+  "description": "Dokumen ini menjelaskan pendekatan TikGo terhadap privasi pengguna. Harap baca dengan saksama dan hubungi kami jika Anda memiliki pertanyaan.",
+
+  "intro": "Di TikGo, kami menghargai privasi pengguna dan berkomitmen untuk memberikan pengalaman penjelajahan yang aman. Berikut adalah detail tentang bagaimana kami mengelola informasi pribadi dan data lainnya.",
+
+  "personal_info": {
+    "title": "Data Pribadi dan Privasi",
+    "content": "TikGo memungkinkan pengguna mengakses layanan kami tanpa harus memberikan informasi pribadi. Kami tidak mengumpulkan atau menyimpan data identifikasi kecuali jika diberikan secara sukarela. Jika kami mendeteksi informasi palsu atau menyesatkan, TikGo berhak membatasi akses ke platform."
+  },
+
+  "policy_changes": {
+    "title": "Pembaruan Kebijakan Privasi",
+    "content": "TikGo dapat memperbarui kebijakan privasi ini jika diperlukan untuk meningkatkan transparansi dan keamanan. Jika ada perubahan besar, kami akan memberikan pemberitahuan di halaman utama kami. Kami menyarankan pengguna untuk secara berkala memeriksa halaman ini guna mengetahui bagaimana kami melindungi privasi mereka."
+  },
+
+  "advertising": {
+    "title": "Iklan dan Cookie",
+    "content": "Untuk mendukung platform ini, TikGo menampilkan iklan dari mitra pihak ketiga. Pengiklan ini dapat menggunakan cookie untuk mengumpulkan data penjelajahan non-pribadi. Namun, tidak ada informasi pribadi seperti nama atau alamat email yang dikumpulkan. Pengguna dapat menonaktifkan cookie di pengaturan browser mereka atau berhenti menggunakan layanan kami kapan saja."
+  },
+
+  "acceptance": {
+    "title": "Persetujuan terhadap Ketentuan",
+    "content": "Dengan menggunakan TikGo, Anda mengakui dan menyetujui kebijakan privasi ini. Jika Anda tidak menyetujui ketentuan ini, harap jangan gunakan layanan kami. Melanjutkan penggunaan platform setelah pembaruan kebijakan berarti Anda menerima ketentuan yang diperbarui."
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "nav_video": "Video",
+  "nav_mp3": "MP3",
+  "nav_slide": "Slide",
+  "nav_story": "Story",  
+  
+  "website_name": "TikGo Downloader",
+  
+  "organization_name": "TikGo",
+  "organization_email": "tikgo.me@gmail.com",
+  "alt_name_1": "TikGo - TikTok Downloader",
+  "alt_name_2": "TikTok Downloader",
+  "alt_name_3": "TikTok 影片 下載",
+  "alt_name_4": "TikTok 音樂 下載",
+  "alt_name_5": "TikTok 圖片 下載",
+  
+  "webapp_name": "TikGo - TikTok Downloader",
+  "webapp_description": "目前最佳的在線 TikTok 下載器。可在 iPhone、Android、PC 等常用瀏覽器上運行…",
+  "feature_1": "去除水印和標誌",
+  "feature_2": "保存 HD - 4K 質量的視頻",
+  "feature_3": "下載速度快，僅需 10 - 30 秒",
+  "feature_4": "永久免費 & 無限制",
+  "feature_5": "無需註冊帳戶",
+  
+  
+  "service_name": "抖音影片下載",
+  "service_type": "線上視頻下載服務",
+  "service_output": "MP4視頻文件",
+
+  "meta_title": "無浮水印 TikTok 影片下載網站，高畫質 HD - 2K - 4K",
+  "meta_description": "TikGo.me - 在線 TikTok 影片下載網站，無浮水印。支援 iPhone、Android、PC 免費下載高畫質 HD、4K TikTok 影片。下載速度快，無需安裝，簡單易用！",
+  "meta_keywords": "TikTok 影片 下載, tik tok 下載 影片, 抖音影片下載, 抖 音 下載 影片",
+
+  "title": "TikTok 影片 下載",
+  "description": "免費下載並保存無浮水印 TikTok 影片，高畫質 HD - 4K",
+
+  "extra_long_content": "## 無浮水印 TikTok 影片下載網站，高畫質，無需註冊\n\n想要下載 TikTok 影片，但不想要浮水印？TikGo 幫助你輕鬆 下載 TikTok 影片無水印，並以 MP4 高清畫質 儲存至你的裝置。無論你使用 iOS、Android 或 PC，都能直接透過瀏覽器下載，無需安裝任何應用程式。\n\nTikGo.me 是一個免費、安全的 TikTok 影片線上下載器，讓你隨時保存喜愛的影片，離線觀看或分享給朋友。\n\n### 免責聲明\n- 下載 TikTok 影片前，請確保你擁有該影片的權限，或已獲得原作者的允許。\n- TikGo 只作為技術工具，使用者應遵守當地法律，不得將影片用於侵權行為。\n- TikGo 與 TikTok 或其母公司 ByteDance 無任何關聯。\n\n### 為何選擇 TikGo？\n- **無浮水印下載**：去除 TikTok 官方浮水印，獲得純淨影片。\n- **免註冊、免安裝**：直接透過瀏覽器操作，無需下載應用程式。\n- **高清畫質**：支援 HD、1080p、2K、4K 等高品質影片下載。\n- **適用所有設備**：可在 iOS、Android、Windows、MacOS 上使用。\n- **完全免費**：無隱藏費用，不限下載次數。\n\n### 如何下載 TikTok 影片無浮水印？\n\n#### 1. 複製 TikTok 影片連結\n- 打開 TikTok 應用程式，找到你要下載的影片。\n- 點擊 **分享** 按鈕，選擇 **複製連結**。\n\n#### 2. 前往 TikGo.me\n- 使用瀏覽器進入 TikGo.me。\n- 在輸入框中貼上 TikTok 影片連結，然後點擊 **下載**。\n\n#### 3. 下載 MP4 影片\n- TikGo 會處理影片並去除浮水印。\n- 選擇 MP4 格式，然後將影片保存至你的裝置。",
+
+  "sum_content": "使用 TikGo，你可以快速、免費地下載 TikTok 影片無浮水印，無需安裝應用程式，適用於各種裝置。現在就試試 TikGo.me 吧！",
+
+  "extra_faq_title": "常見問題 (FAQ)",
+  "extra_faq": [
+    {
+      "faq_question": "TikGo 需要收費嗎？",
+      "faq_answer": "不，TikGo 是免費的 TikTok 影片下載網站，無需付費或註冊帳號。"
+    },
+    {
+      "faq_question": "如何在 iPhone 下載 TikTok 影片？",
+      "faq_answer": "- 使用 Safari 瀏覽器進入 TikGo.me。\n- 貼上 TikTok 影片連結並點擊 **下載**。\n- 影片將儲存至 iPhone 文件 (Files) 或相簿 (Photos)。"
+    },
+    {
+      "faq_question": "影片下載後存放在哪裡？",
+      "faq_answer": "- **Android 手機**：下載的影片通常存放於下載 (Downloads) 資料夾。\n- **iPhone**：可在文件 (Files) 或相簿 (Photos) 中找到。\n- **PC/Mac**：影片會存入預設的下載資料夾。"
+    },
+    {
+      "faq_question": "是否可以下載 4K 畫質的 TikTok 影片？",
+      "faq_answer": "是的！如果影片的原始解析度為 4K，TikGo 會保留最高畫質。"
+    },
+    {
+      "faq_question": "能下載私人 TikTok 影片嗎？",
+      "faq_answer": "不可以，TikGo 只能下載公開的 TikTok 影片，無法存取私人內容。"
+    },
+    {
+      "faq_question": "下載 TikTok 影片是否合法？",
+      "faq_answer": "TikGo 只是下載工具，使用者應確保下載行為符合當地法律。請尊重原創作者的版權，並避免未經許可的商業用途。"
+    },
+    {
+      "faq_question": "可以一次下載多個 TikTok 影片嗎？",
+      "faq_answer": "目前 TikGo 只支援單個影片下載，但你可以重複操作來下載多個影片。"
+    },
+    {
+      "faq_question": "如何聯繫 TikGo 客服？",
+      "faq_answer": "如果遇到問題，可以透過電子郵件 (tikgo.me@gmail.com) 或 Telegram (@tikgo_me) 聯絡我們。"
+    }
+  ]
+}
+

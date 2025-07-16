@@ -1,0 +1,81 @@
+.footer {
+  padding: 20px;
+  background-color: #f8f9fa;
+  color: #333;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 900px; /* ✅ Giới hạn chiều rộng */
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* ✅ Grid 3 cột */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+/* ✅ Tiêu đề của từng cột */
+.title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* ✅ Danh sách các liên kết */
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.listItem {
+  margin-bottom: 8px;
+}
+
+.link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+/* ✅ Copyright */
+.copyright {
+  text-align: center;
+  font-size: 12px;
+  color: #6c757d;
+  width: 100%;
+  padding-top: 10px;
+  border-top: 1px solid #ddd;
+}
+
+/* ✅ Responsive: Trên tablet, giảm số cột */
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr); /* 2 cột trên tablet */
+  }
+}
+
+/* ✅ Responsive: Trên mobile, chỉ hiển thị 1 cột */
+@media (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr); /* 1 cột trên mobile */
+    text-align: center;
+  }
+  .container {
+    align-items: center;
+  }
+}

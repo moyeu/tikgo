@@ -1,0 +1,41 @@
+{
+  "clipboard_error": "Votre navigateur ne prend pas en charge le presse-papiers ou la permission est refusée.",
+  "clipboard_empty": "Le presse-papiers est vide ! Veuillez copier le lien à nouveau.",
+  "clipboard_permission_denied": "Impossible de coller depuis le presse-papiers ! Veuillez entrer le lien manuellement.",
+  "paste_placeholder": "Collez l'URL TikTok ici...",
+  "paste_button": "Coller",
+  "download_button": "Télécharger",
+  "page_not_found": "Page non trouvée",
+  "oops_message": "Oups ! La page que vous recherchez n'existe pas.",
+  "go_home": "Aller à l'accueil",
+  "loading": "Traitement en cours...",
+  "how_to_download": "Cliquez pour regarder la vidéo tutorielle de téléchargement",
+  "video_found": "Vidéo trouvée :",
+  "download_now": "Télécharger maintenant",
+  "download_another": "Télécharger une autre vidéo",
+  "no_download_options": "Aucune option de téléchargement disponible.",
+  "cancel_download": "Annuler le téléchargement",
+  "footer": {
+    "tools": "Outils",
+    "company": "Entreprise",
+    "follow_us": "Suivez-nous",
+    "terms": "Conditions d'utilisation",
+    "privacy": "Politique de confidentialité",
+    "about": "À propos",
+    "contact": "Contact",
+    "tiktok_video": "Téléchargeur de vidéos TikTok",
+    "tiktok_mp3": "Convertisseur TikTok en MP3",
+    "tiktok_slide": "Téléchargeur de photos TikTok",
+    "tiktok_story": "Téléchargeur d'histoires TikTok",
+    "copyright": "TikGo Downloader. Tous droits réservés."
+  },
+
+  "shareMessage": " personnes ont partagé au cours de la dernière heure !",
+  "popupTitle": "🚀 Partagez pour des téléchargements plus rapides !",
+  "popupDescription": "Partagez ce site Web pour bénéficier de vitesses de téléchargement plus rapides et augmenter le nombre de téléchargements !",
+  "shareButton": "Partager maintenant",
+  "skipButton": "Passer",
+  "copyLink": "Copier le lien",
+  "copySuccess": "Copié avec succès"
+
+}

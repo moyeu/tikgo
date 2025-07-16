@@ -1,0 +1,52 @@
+{
+
+  "nav_video": "Video",
+  "nav_mp3": "MP3",
+  "nav_slide": "Slide",
+  "nav_story": "Story",
+  
+  "service_name": "Convertisseur TikTok MP3 ",
+  "service_type": "Service de téléchargement MP3 en ligne",
+  "service_output": "Fichier audio MP3",
+  
+  "meta_title": "Téléchargez et convertissez TikTok en MP3 en ligne",
+  "meta_description": "Site web pour convertir TikTok en MP3 en ligne, gratuit et sans inscription. Prend en charge le téléchargement de musique et d’audio TikTok en haute qualité pour iPhone, Android et PC...",
+  "meta_keywords": "convertisseur tiktok mp3, telecharger son tiktok, télécharger mp3 tiktok, convertisseur mp3 tiktok", 
+  
+
+
+  "title": "Convertisseur TikTok MP3",
+  "description": "Convertissez et téléchargez l’audio, la musique et les chansons TikTok en MP3 en ligne",
+
+  "extra_long_content": "## Convertissez TikTok en MP3 de haute qualité, gratuit et sans inscription\n\nTikTok est une plateforme très populaire où les utilisateurs partagent des vidéos contenant des musiques entrainantes et des sons viraux. Parfois, vous souhaitez extraire l’audio d'une vidéo TikTok pour l'écouter hors ligne, l’utiliser dans vos propres créations ou encore la mettre en sonnerie.\n\nAvec TikGo, vous pouvez **convertir TikTok en MP3** rapidement et gratuitement, sans besoin d’installer une application. Ce guide vous explique comment procéder en toute simplicité.\n\n### Comment télécharger et convertir TikTok en MP3 ?\n\nSuivez ces étapes simples pour extraire l’audio d’une vidéo TikTok :\n\n#### 1. **Copier le lien de la vidéo TikTok**  \n- Ouvrez l'application TikTok et trouvez la vidéo dont vous souhaitez extraire le son.  \n- Appuyez sur **Partager**, puis sur **Copier le lien**.\n\n#### 2. **Coller le lien sur TikGo**  \n- Rendez-vous sur TikGo.me via votre navigateur.\n- Collez le lien dans la barre de conversion et cliquez sur **Télécharger**.\n\n#### 3. **Télécharger l'audio MP3**  \n- Après analyse de la vidéo, choisissez l'option **Télécharger en MP3**.\n- L'audio sera enregistré sur votre appareil, prêt à être écouté ou utilisé.\n",
+
+  "extra_faq_title": "Questions Fréquemment Posées",
+  "extra_faq": [
+    {
+      "faq_question": "TikGo est-il gratuit ?",
+      "faq_answer": "Oui, **TikGo est totalement gratuit** et ne requiert aucun abonnement ou inscription."
+    },
+    {
+      "faq_question": "Comment utiliser un son TikTok comme sonnerie sur mon téléphone ?",
+      "faq_answer": "Après avoir téléchargé l’audio MP3, accédez à **Paramètres > Sons et vibrations > Sonnerie** (Android) ou utilisez l'application GarageBand (iPhone) pour définir le fichier MP3 comme sonnerie."
+    },
+    {
+      "faq_question": "Puis-je convertir un TikTok privé en MP3 ?",
+      "faq_answer": "Non, TikGo ne prend en charge que les vidéos publiques de TikTok."
+    },
+    {
+      "faq_question": "La qualité audio est-elle conservée après la conversion ?",
+      "faq_answer": "Oui, TikGo préserve la qualité originale de l'audio. Cependant, la qualité dépend de la vidéo TikTok d'origine."
+    },
+    {
+      "faq_question": "Où sont enregistrés les fichiers MP3 sur mon appareil ?",
+      "faq_answer": "- **Android** : dans le dossier **Téléchargements** ou **Musique**.\n- **iPhone** : dans l'application **Fichiers**, sauf si vous utilisez une application de musique tierce.\n- **PC/Mac** : dans le dossier par défaut de vos téléchargements."
+    },
+    {
+      "faq_question": "Est-il légal de télécharger des musiques TikTok en MP3 ?",
+      "faq_answer": "L’utilisation des musiques TikTok en MP3 doit respecter les droits d’auteur. TikGo ne permet que l’usage personnel et décline toute responsabilité en cas d’utilisation non autorisée."
+    }
+  ],
+
+  "sum_content": "Avec TikGo, vous pouvez facilement **convertir TikTok en MP3** et enregistrer vos audios favoris en quelques clics. Utilisez cet outil de manière responsable et profitez de vos extraits sonores préférés où que vous soyez !"
+}

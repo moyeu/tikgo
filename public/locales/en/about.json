@@ -1,0 +1,57 @@
+{
+  "title": "About TikGo",
+  "description": "TikGo helps you download TikTok videos without watermarks, fast and free.",
+  "intro": "Launched in 2024, TikGo makes downloading TikTok videos simple. No software needed—just use your browser to save videos instantly.",
+
+  "mission": {
+    "title": "Our Mission",
+    "content": "We aim to provide a fast, easy, and reliable way to download TikTok videos and photos without watermarks."
+  },
+
+  "services": {
+    "title": "What We Offer",
+    "video_downloader": "Download TikTok videos without watermarks.",
+    "slideshow_downloader": "Save photos and videos from TikTok slideshows.",
+    "story_downloader": "Download TikTok stories in MP4 format.",
+    "tiktok_to_mp3": "Convert TikTok videos to MP3 audio."
+  },
+
+  "advantages": {
+    "title": "Why Choose TikGo?",
+    "no_watermark": "Clean Videos: No watermarks or logos.",
+    "free": "Completely Free: No hidden fees.",
+    "cross_platform": "Works Everywhere: Use on mobile, tablet, or PC.",
+    "high_quality": "HD Quality: Get the best video resolution.",
+    "easy_to_use": "Simple: No sign-ups or app downloads.",
+    "multilingual": "Supports Multiple Languages."
+  },
+
+  "values": {
+    "title": "Our Values",
+    "community": "User-Focused: We listen and improve.",
+    "trustworthy": "Privacy First: No stored downloads.",
+    "easy_to_use": "Designed for Everyone."
+  },
+
+  "feedback": {
+    "title": "Your Opinion Matters",
+    "content": "We’d love to hear your feedback! Help us improve by sharing your thoughts.",
+    "link": "Contact Us"
+  },
+
+  "community": {
+    "title": "Join Our Community",
+    "content": "Thousands trust TikGo for downloading TikTok videos quickly and easily. Be part of our growing network!"
+  },
+
+  "contact": {
+    "title": "Contact Us",
+    "description": "If you have any questions about our services, need to report an issue, or want to collaborate on advertising, feel free to reach out to us.",
+    "contact_info": "You can contact us through the following methods:",
+    "telegram": "Telegram",
+    "email": "Email",
+    "form_instruction": "Or send us a message directly through the form below:",
+    "loading": "Loading..."
+  }
+
+}

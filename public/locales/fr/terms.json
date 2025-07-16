@@ -1,0 +1,40 @@
+{
+  "title": "Conditions d'Utilisation",
+  "description": "Veuillez lire attentivement les Conditions d'Utilisation avant d'utiliser TikGo. En accédant à notre site web, vous acceptez ces conditions.",
+  
+  "intro": "Ces Conditions d'Utilisation constituent un accord juridiquement contraignant entre vous et TikGo. En utilisant notre site web et nos services, vous acceptez de respecter ces conditions ainsi que toute politique supplémentaire indiquée sur notre plateforme. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser TikGo. Le contenu de ce site est protégé par les lois sur le droit d'auteur et la propriété intellectuelle.",
+
+  "intellectual_property": {
+    "title": "Propriété Intellectuelle",
+    
+    "use_license": {
+      "title": "Licence d'Utilisation",
+      "content": "TikGo accorde aux utilisateurs une licence temporaire et limitée pour accéder et télécharger du contenu uniquement à des fins personnelles et non commerciales. Cette licence ne transfère aucun droit de propriété sur les matériaux et, en vertu de cet accord, vous ne pouvez pas :\n- Modifier, redistribuer ou copier le contenu.\n- Utiliser le contenu à des fins commerciales ou pour une diffusion publique.\n- Supprimer les mentions de droits d'auteur ou autres notifications de propriété.\n- Partager, transférer ou héberger du contenu sur des serveurs externes."
+    },
+    
+    "copyright": {
+      "title": "Droits d'Auteur",
+      "content": "TikGo respecte les droits de propriété intellectuelle et attend des utilisateurs qu'ils fassent de même.\n- Les utilisateurs sont responsables de s'assurer qu'ils ont le droit légal de télécharger et d'utiliser le contenu.\n- TikGo ne fournit l'accès qu'à du contenu disponible publiquement.\n- TikGo ne vérifie pas le statut légal du contenu téléchargé, et les utilisateurs doivent s'assurer de respecter les lois sur le droit d'auteur.\n- Toute utilisation abusive ou violation peut entraîner une restriction d'accès à nos services.\n- TikGo ne stocke ni n'archive le contenu téléchargé par les utilisateurs."
+    }
+  },
+
+  "disclaimer": {
+    "title": "Clause de Non-Responsabilité",
+    "content": "Le contenu disponible sur TikGo est fourni 'tel quel', sans garantie d'aucune sorte. TikGo décline toute garantie, y compris les garanties implicites de qualité marchande et d'adéquation à un usage particulier. Nous ne garantissons pas l'exactitude, la fiabilité ou la légalité de tout contenu disponible via nos services."
+  },
+
+  "links": {
+    "title": "Liens Tiers",
+    "content": "TikGo peut contenir des liens vers des sites web externes. Nous ne surveillons ni n'approuvons ces sites tiers et ne sommes pas responsables de leur contenu. L'accès aux sites web tiers se fait à vos propres risques."
+  },
+
+  "limitations": {
+    "title": "Limitations de Responsabilité",
+    "content": "TikGo ne peut être tenu responsable des dommages directs, indirects, accidentels ou consécutifs résultant de l'utilisation ou de l'incapacité à utiliser nos services. Certaines juridictions peuvent ne pas autoriser certaines exclusions de responsabilité, de sorte que ces limitations peuvent ne pas s'appliquer à tous les utilisateurs."
+  },
+
+  "modifications": {
+    "title": "Modifications des Conditions",
+    "content": "TikGo se réserve le droit de mettre à jour ces conditions à tout moment sans préavis. En continuant à utiliser nos services après toute modification, vous acceptez les conditions mises à jour."
+  }
+}

@@ -1,0 +1,57 @@
+{
+
+  "nav_video": "Video",
+  "nav_mp3": "MP3",
+  "nav_slide": "Slide",
+  "nav_story": "Story",
+  
+  "service_name": "TikTok 音樂 下載",
+  "service_type": "線上MP3下載服務",
+  "service_output": "MP3音頻檔案",
+  
+  "meta_title": "TikTok 音樂下載 - 高音質 TikTok 轉 MP3",
+  "meta_description": "TikTok 音樂下載網站，線上轉 MP3，免費，無需註冊。支援 iPhone、Android、PC 下載 TikTok 高音質音樂與歌曲！",
+  "meta_keywords": "tiktok 音樂 下載, tiktok背景音樂提取, tiktok鈴聲下載, TikTok 音樂下載網站, 將 TikTok 轉換為 MP3", 
+  
+
+
+  "title": "TikTok 音樂 下載 MP3",
+  "description": "線上轉換與下載 TikTok 音樂、歌曲、音訊 MP3",
+
+  "extra_long_content": "## TikTok 音樂下載網站，MP3 格式，免費 & 無需註冊\n\nTikTok 是目前最受歡迎的短影音平台，擁有大量的創意音樂與背景音效。許多用戶希望下載 TikTok 音樂以便離線聆聽、用作手機鈴聲，或作為影片背景音樂。然而，TikTok 並未提供直接下載音樂的功能，因此 TikGo 成為你的最佳選擇。\n\nTikGo.me 是一款免費、快速且方便的 TikTok 音樂下載網站，可讓你輕鬆將 TikTok 轉換為 MP3，無需安裝任何應用程式，支援 iOS、Android、Windows 及 Mac，讓你隨時隨地下載喜愛的 TikTok 音樂。\n\n### 如何下載 TikTok 音樂 MP3？\n\n使用 TikGo 下載 TikTok 音樂只需幾個簡單步驟：\n\n#### 1. 複製 TikTok 影片連結\n- 打開 TikTok 應用程式，找到想要下載音樂的影片。\n- 點擊分享按鈕，然後選擇複製連結。\n\n#### 2. 貼上連結至 TikGo\n- 打開瀏覽器並前往 TikGo.me。\n- 將剛剛複製的連結貼入輸入框，然後點擊下載按鈕。\n\n#### 3. 選擇 MP3 格式並下載\n- 系統會處理影片並提取音樂。\n- 選擇 **MP3 格式**，然後下載音樂至你的裝置。",
+
+  "sum_content": "使用 TikGo，你可以快速、免費地下載 TikTok 音樂，輕鬆將 TikTok 轉換為 MP3，適用於各種裝置。無論你想要提取 TikTok 背景音樂、設為 TikTok 鈴聲下載，或用於個人創作，TikGo 都是你的最佳選擇。立即前往 TikGo.me 開始下載吧！",
+
+  "extra_faq_title": "常見問題 (FAQ)",
+  "extra_faq": [
+    {
+      "faq_question": "TikGo 下載 TikTok 音樂需要付費嗎？",
+      "faq_answer": "不，TikGo 是免費的 TikTok 音樂下載網站，不需要註冊或支付任何費用。"
+    },
+    {
+      "faq_question": "如何將下載的音樂設為手機鈴聲？",
+      "faq_answer": "- **iPhone**：將 MP3 檔案匯入 GarageBand，然後設為鈴聲。\n- **Android**：在設定 > 音效中選擇下載的 MP3 設為鈴聲。"
+    },
+    {
+      "faq_question": "下載的 TikTok 音樂會有音質損失嗎？",
+      "faq_answer": "TikGo 會保留原始音質，但最終音質取決於 TikTok 影片的音源品質。"
+    },
+    {
+      "faq_question": "可以從私人 TikTok 影片提取音樂嗎？",
+      "faq_answer": "不行，TikGo 只能下載公開 TikTok 影片的音樂。"
+    },
+    {
+      "faq_question": "下載的音樂存放在哪裡？",
+      "faq_answer": "- **Android**：檔案會存入下載 (Downloads) 資料夾。\n- **iPhone**：可在檔案 (Files) 或音樂應用程式中找到。\n- **PC/Mac**：下載的 MP3 檔案存放於預設下載資料夾。"
+    },
+    {
+      "faq_question": "下載 TikTok 音樂是否合法？",
+      "faq_answer": "TikGo 只是一款下載工具，合法性取決於使用方式。請尊重版權，避免未經授權的商業用途。"
+    },
+    {
+      "faq_question": "我可以將 TikTok 音樂用於 YouTube 嗎？",
+      "faq_answer": "某些 TikTok 音樂可能受版權保護，使用前請確認是否符合 YouTube 版權政策，以免遭遇版權警告。"
+    }
+  ]
+}
+

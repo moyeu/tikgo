@@ -1,0 +1,41 @@
+{
+  "clipboard_error": "Peramban Anda tidak mendukung clipboard atau izin ditolak.",
+  "clipboard_empty": "Clipboard kosong! Silakan salin tautan lagi.",
+  "clipboard_permission_denied": "Tidak dapat menempel dari clipboard! Silakan masukkan tautan secara manual.",
+  "paste_placeholder": "Tempel URL TikTok di sini...",
+  "paste_button": "Tempel",
+  "download_button": "Unduh",
+  "page_not_found": "Halaman Tidak Ditemukan",
+  "oops_message": "Ups! Halaman yang Anda cari tidak ada.",
+  "go_home": "Kembali ke Beranda",
+  "loading": "Memproses...",
+  "how_to_download": "Klik untuk menonton video tutorial unduhan",
+  "video_found": "Video Ditemukan:",
+  "download_now": "Unduh Sekarang",
+  "download_another": "Unduh video lain",
+  "no_download_options": "Tidak ada opsi unduhan yang tersedia.",
+  "cancel_download": "Batalkan unduhan",
+  "footer": {
+    "tools": "Alat",
+    "company": "Perusahaan",
+    "follow_us": "Ikuti kami",
+    "terms": "Syarat Layanan",
+    "privacy": "Kebijakan Privasi",
+    "about": "Tentang Kami",
+    "contact": "Kontak",
+    "tiktok_video": "Pengunduh Video TikTok",
+    "tiktok_mp3": "Konverter TikTok ke MP3",
+    "tiktok_slide": "Pengunduh Foto TikTok",
+    "tiktok_story": "Pengunduh Cerita TikTok",
+    "copyright": "TikGo Downloader. Semua hak dilindungi."
+  },
+  
+  "shareMessage": " orang telah membagikan dalam satu jam terakhir!",
+  "popupTitle": "🚀 Bagikan untuk mendapatkan kecepatan unduhan lebih cepat!",
+  "popupDescription": "Bagikan situs web ini untuk mendapatkan kecepatan unduhan lebih cepat dan meningkatkan jumlah unduhan!",
+  "shareButton": "Bagikan sekarang",
+  "skipButton": "Lewati",
+  "copyLink": "Salin Tautan",
+  "copySuccess": "Berhasil disalin"
+
+}

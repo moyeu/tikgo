@@ -1,0 +1,26 @@
+{
+  "title": "Datenschutzrichtlinie",
+  "description": "Dieses Dokument beschreibt den Datenschutzansatz von TikGo. Bitte lesen Sie es sorgfältig durch und kontaktieren Sie uns bei Fragen.",
+
+  "intro": "Bei TikGo respektieren wir die Privatsphäre unserer Nutzer und setzen uns für ein sicheres Online-Erlebnis ein. Nachfolgend finden Sie Informationen darüber, wie wir personenbezogene Daten und andere Informationen verwalten.",
+
+  "personal_info": {
+    "title": "Persönliche Daten und Privatsphäre",
+    "content": "TikGo ermöglicht den Zugriff auf unsere Dienste, ohne dass Nutzer persönliche Informationen angeben müssen. Wir sammeln oder speichern keine Identifikationsdaten, es sei denn, sie werden freiwillig bereitgestellt. Sollten falsche oder irreführende Angaben festgestellt werden, behält sich TikGo das Recht vor, den Zugriff auf die Plattform zu beschränken."
+  },
+
+  "policy_changes": {
+    "title": "Änderungen an der Datenschutzrichtlinie",
+    "content": "TikGo kann diese Datenschutzrichtlinie bei Bedarf aktualisieren, um Transparenz und Sicherheit zu verbessern. Bei wesentlichen Änderungen veröffentlichen wir eine Ankündigung auf unserer Hauptseite. Wir empfehlen, diese Seite regelmäßig zu überprüfen, um über unsere Datenschutzmaßnahmen informiert zu bleiben."
+  },
+
+  "advertising": {
+    "title": "Werbung und Cookies",
+    "content": "Um unsere Plattform zu finanzieren, zeigt TikGo Werbung von Drittanbietern an. Diese Werbetreibenden können Cookies verwenden, um nicht-personenbezogene Browsing-Daten zu erfassen. Persönliche Daten wie Namen oder E-Mail-Adressen werden nicht gesammelt. Nutzer können Cookies in ihren Browsereinstellungen deaktivieren oder unsere Dienste jederzeit nicht mehr nutzen."
+  },
+
+  "acceptance": {
+    "title": "Zustimmung zu den Bedingungen",
+    "content": "Durch die Nutzung von TikGo erkennen Sie diese Datenschutzrichtlinie an und stimmen ihr zu. Wenn Sie mit diesen Bedingungen nicht einverstanden sind, nutzen Sie unsere Dienste bitte nicht weiter. Die fortgesetzte Nutzung unserer Plattform nach Aktualisierungen dieser Richtlinie bedeutet, dass Sie den geänderten Bedingungen zustimmen."
+  }
+}

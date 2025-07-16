@@ -1,0 +1,26 @@
+{
+  "title": "Zásady ochrany osobních údajů",
+  "description": "Tento dokument popisuje přístup TikGo k ochraně soukromí uživatelů. Přečtěte si jej pozorně a v případě dotazů nás kontaktujte.",
+
+  "intro": "V TikGo respektujeme soukromí uživatelů a zavazujeme se zajistit bezpečné prohlížení. Níže naleznete podrobnosti o tom, jak nakládáme s osobními údaji a dalšími daty.",
+
+  "personal_info": {
+    "title": "Osobní údaje a soukromí",
+    "content": "TikGo umožňuje uživatelům přístup ke službám bez nutnosti zadávat osobní údaje. Nevyžadujeme, neukládáme ani neshromažďujeme žádné identifikační informace, pokud je uživatel neposkytne dobrovolně. Pokud zjistíme nepravdivé nebo zavádějící informace, TikGo si vyhrazuje právo omezit přístup k platformě."
+  },
+
+  "policy_changes": {
+    "title": "Aktualizace zásad ochrany osobních údajů",
+    "content": "TikGo může podle potřeby aktualizovat tyto zásady ochrany osobních údajů, aby zajistil větší transparentnost a lepší zabezpečení. V případě významných změn zveřejníme oznámení na hlavní stránce. Doporučujeme pravidelně kontrolovat tuto stránku, abyste byli informováni o ochraně vašeho soukromí."
+  },
+
+  "advertising": {
+    "title": "Reklama a soubory cookie",
+    "content": "Abychom mohli podporovat naši platformu, TikGo zobrazuje reklamy od třetích stran. Tito inzerenti mohou používat soubory cookie ke shromažďování neosobních údajů o prohlížení. Osobní údaje, jako jsou jména nebo e-mailové adresy, nejsou shromažďovány. Uživatelé mohou soubory cookie zakázat v nastavení prohlížeče nebo kdykoli přestat používat naše služby."
+  },
+
+  "acceptance": {
+    "title": "Souhlas s podmínkami",
+    "content": "Používáním TikGo potvrzujete a souhlasíte s těmito zásadami ochrany osobních údajů. Pokud s podmínkami nesouhlasíte, nepoužívejte naše služby. Pokračováním v používání platformy po jakýchkoli aktualizacích těchto zásad vyjadřujete svůj souhlas s upravenými podmínkami."
+  }
+}

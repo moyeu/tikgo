@@ -1,0 +1,26 @@
+{
+  "title": "Gizlilik Politikası",
+  "description": "Bu belge, TikGo’nun kullanıcı gizliliği konusundaki yaklaşımını açıklamaktadır. Lütfen dikkatlice okuyun ve herhangi bir sorunuz varsa bizimle iletişime geçin.",
+
+  "intro": "TikGo, kullanıcı gizliliğine önem verir ve güvenli bir gezinme deneyimi sunmaya kararlıdır. Aşağıda, kişisel bilgileri ve diğer verileri nasıl yönettiğimize dair ayrıntılar bulunmaktadır.",
+
+  "personal_info": {
+    "title": "Kişisel Bilgiler ve Gizlilik",
+    "content": "TikGo, kullanıcıların kişisel bilgilerini paylaşmadan hizmetlerimize erişmesine olanak tanır. Kullanıcılar gönüllü olarak sağlamadığı sürece hiçbir kimlik bilgisi toplamaz veya saklamayız. Yanıltıcı veya yanlış bilgi tespit edilirse, TikGo platforma erişimi kısıtlama hakkını saklı tutar."
+  },
+
+  "policy_changes": {
+    "title": "Gizlilik Politikasındaki Değişiklikler",
+    "content": "TikGo, şeffaflığı artırmak ve güvenliği sağlamak için gizlilik politikasını zaman zaman güncelleyebilir. Önemli değişiklikler olması durumunda, ana sayfamızda bir bildirim yayınlayacağız. Kullanıcılara, gizlilik koruma yöntemlerimizi takip edebilmek için bu sayfayı düzenli olarak kontrol etmelerini öneririz."
+  },
+
+  "advertising": {
+    "title": "Reklam ve Çerezler",
+    "content": "TikGo, platformunu desteklemek için üçüncü taraf reklamlar yayınlamaktadır. Bu reklam sağlayıcıları, kimlik bilgisi içermeyen gezinme verilerini toplamak için çerezleri kullanabilir. Ancak, adlar veya e-posta adresleri gibi kişisel bilgiler toplanmaz. Kullanıcılar, tarayıcı ayarlarından çerezleri devre dışı bırakabilir veya hizmetlerimizi kullanmayı bırakabilir."
+  },
+
+  "acceptance": {
+    "title": "Şartların Kabulü",
+    "content": "TikGo’yu kullanarak, bu gizlilik politikasını kabul ettiğinizi beyan etmiş olursunuz. Bu şartları kabul etmiyorsanız, lütfen hizmetlerimizi kullanmayın. Bu politikada yapılan güncellemelerden sonra platformu kullanmaya devam etmeniz, güncellenmiş şartları kabul ettiğiniz anlamına gelir."
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title": "Über TikGo",
+  "description": "Mit TikGo kannst du TikTok-Videos ohne Wasserzeichen schnell und kostenlos herunterladen.",
+  "intro": "TikGo wurde 2024 gestartet, um das Herunterladen von TikTok-Videos zu vereinfachen. Keine Software erforderlich – benutze einfach deinen Browser und speichere Videos sofort.",
+
+  "mission": {
+    "title": "Unsere Mission",
+    "content": "Wir möchten eine schnelle, einfache und zuverlässige Möglichkeit bieten, TikTok-Videos und Fotos ohne Wasserzeichen herunterzuladen."
+  },
+
+  "services": {
+    "title": "Unsere Dienstleistungen",
+    "video_downloader": "TikTok-Videos ohne Wasserzeichen herunterladen.",
+    "slideshow_downloader": "Fotos und Videos aus TikTok-Diashows speichern.",
+    "story_downloader": "TikTok-Storys im MP4-Format herunterladen.",
+    "tiktok_to_mp3": "TikTok-Videos in MP3-Audio konvertieren."
+  },
+
+  "advantages": {
+    "title": "Warum TikGo wählen?",
+    "no_watermark": "Saubere Videos: Keine Wasserzeichen oder Logos.",
+    "free": "Völlig kostenlos: Keine versteckten Gebühren.",
+    "cross_platform": "Überall nutzbar: Auf Handy, Tablet oder PC.",
+    "high_quality": "HD-Qualität: Beste Videoauflösung.",
+    "easy_to_use": "Einfach zu bedienen: Keine Anmeldung oder App erforderlich.",
+    "multilingual": "Unterstützt mehrere Sprachen."
+  },
+
+  "values": {
+    "title": "Unsere Werte",
+    "community": "Benutzerorientiert: Wir hören zu und verbessern uns.",
+    "trustworthy": "Datenschutz an erster Stelle: Keine gespeicherten Downloads.",
+    "easy_to_use": "Für jeden einfach zu nutzen."
+  },
+
+  "feedback": {
+    "title": "Deine Meinung zählt",
+    "content": "Wir freuen uns über dein Feedback! Hilf uns, unseren Service zu verbessern, indem du deine Meinung teilst.",
+    "link": "Kontaktiere uns"
+  },
+
+  "community": {
+    "title": "Werde Teil unserer Community",
+    "content": "Tausende vertrauen TikGo für das schnelle und einfache Herunterladen von TikTok-Videos. Sei dabei!"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "description": "Wenn Sie Fragen zu unseren Dienstleistungen haben, ein Problem melden oder eine Werbekooperation besprechen möchten, zögern Sie nicht, uns zu kontaktieren.",
+    "contact_info": "Sie können uns über die folgenden Wege erreichen:",
+    "telegram": "Telegram",
+    "email": "E-Mail",
+    "form_instruction": "Oder senden Sie uns eine Nachricht direkt über das untenstehende Formular:",
+    "loading": "Lädt..."
+  }
+}

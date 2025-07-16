@@ -1,0 +1,40 @@
+{
+  "title": "Termos de Serviço",
+  "description": "Por favor, leia atentamente os Termos de Serviço antes de utilizar o TikGo. Ao acessar nosso site, você concorda com estes termos.",
+  
+  "intro": "Estes Termos de Serviço constituem um contrato legalmente vinculativo entre você e o TikGo. Ao utilizar nosso site e serviços, você concorda em cumprir estes termos e qualquer outra política adicional descrita em nossa plataforma. Se você não concordar com estes termos, pedimos que não utilize o TikGo. O conteúdo deste site é protegido por direitos autorais e leis de propriedade intelectual.",
+
+  "intellectual_property": {
+    "title": "Propriedade Intelectual",
+    
+    "use_license": {
+      "title": "Licença de Uso",
+      "content": "O TikGo concede aos usuários uma licença temporária e limitada para acessar e baixar conteúdos apenas para uso pessoal e não comercial. Esta licença não transfere a propriedade de nenhum material, e sob este acordo, você não pode:\n- Modificar, redistribuir ou copiar o conteúdo.\n- Usar o conteúdo para fins comerciais ou exibição pública.\n- Remover avisos de direitos autorais ou outras notificações de propriedade do conteúdo.\n- Compartilhar, transferir ou hospedar o conteúdo em servidores externos."
+    },
+    
+    "copyright": {
+      "title": "Direitos Autorais",
+      "content": "O TikGo respeita os direitos de propriedade intelectual e espera que os usuários façam o mesmo.\n- Os usuários são responsáveis por garantir que têm o direito legal de baixar e usar o conteúdo.\n- O TikGo fornece acesso apenas a conteúdos disponíveis publicamente.\n- O TikGo não verifica o status legal do conteúdo baixado, e os usuários devem garantir o cumprimento das leis de direitos autorais.\n- Qualquer uso indevido ou violação pode resultar na restrição de acesso aos nossos serviços.\n- O TikGo não armazena nem arquiva conteúdos baixados pelos usuários."
+    }
+  },
+
+  "disclaimer": {
+    "title": "Isenção de Responsabilidade",
+    "content": "O conteúdo disponível no TikGo é fornecido 'como está', sem garantias de qualquer tipo. O TikGo renuncia a todas as garantias, incluindo garantias implícitas de comerciabilidade e adequação para um propósito específico. Não garantimos a precisão, confiabilidade ou legalidade de qualquer conteúdo disponível por meio de nossos serviços."
+  },
+
+  "links": {
+    "title": "Links de Terceiros",
+    "content": "O TikGo pode conter links para sites externos. Não monitoramos nem endossamos esses sites de terceiros e não nos responsabilizamos pelo seu conteúdo. O acesso a sites de terceiros é por conta e risco do usuário."
+  },
+
+  "limitations": {
+    "title": "Limitações de Responsabilidade",
+    "content": "O TikGo não será responsável por quaisquer danos diretos, indiretos, incidentais ou consequenciais decorrentes do uso ou da impossibilidade de uso dos nossos serviços. Algumas jurisdições podem não permitir certas exclusões de responsabilidade, então essas limitações podem não se aplicar a todos os usuários."
+  },
+
+  "modifications": {
+    "title": "Modificações nos Termos",
+    "content": "O TikGo reserva-se o direito de atualizar estes termos a qualquer momento sem aviso prévio. Ao continuar a utilizar nossos serviços após qualquer alteração, você aceita os termos atualizados."
+  }
+}

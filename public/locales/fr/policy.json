@@ -1,0 +1,26 @@
+{
+  "title": "Politique de Confidentialité",
+  "description": "Ce document décrit l'approche de TikGo en matière de confidentialité des utilisateurs. Veuillez le lire attentivement et nous contacter en cas de questions.",
+
+  "intro": "Chez TikGo, nous respectons la vie privée de nos utilisateurs et nous nous engageons à offrir une expérience de navigation sécurisée. Vous trouverez ci-dessous des détails sur la manière dont nous gérons les informations personnelles et autres données.",
+
+  "personal_info": {
+    "title": "Données Personnelles et Confidentialité",
+    "content": "TikGo permet aux utilisateurs d'accéder à nos services sans avoir à fournir d'informations personnelles. Nous ne collectons ni ne stockons aucune donnée d'identification, sauf si elle est fournie volontairement. Si nous détectons des informations fausses ou trompeuses, TikGo se réserve le droit de restreindre l'accès à la plateforme."
+  },
+
+  "policy_changes": {
+    "title": "Mises à Jour de la Politique de Confidentialité",
+    "content": "TikGo peut mettre à jour cette politique de confidentialité si nécessaire pour renforcer la transparence et la sécurité. En cas de modifications importantes, nous publierons un avis sur notre page principale. Nous recommandons aux utilisateurs de consulter régulièrement cette page pour être informés de la manière dont nous protégeons leur vie privée."
+  },
+
+  "advertising": {
+    "title": "Publicité et Cookies",
+    "content": "Pour soutenir notre plateforme, TikGo affiche des publicités provenant de partenaires tiers. Ces annonceurs peuvent utiliser des cookies pour collecter des données de navigation non personnelles. Cependant, aucune donnée personnelle, telle que les noms ou les adresses e-mail, n'est collectée. Les utilisateurs peuvent désactiver les cookies dans les paramètres de leur navigateur ou cesser d'utiliser nos services à tout moment."
+  },
+
+  "acceptance": {
+    "title": "Acceptation des Conditions",
+    "content": "En utilisant TikGo, vous reconnaissez et acceptez cette politique de confidentialité. Si vous n'acceptez pas ces conditions, veuillez ne pas utiliser nos services. La poursuite de l'utilisation de la plateforme après toute mise à jour de cette politique indique votre acceptation des conditions révisées."
+  }
+}

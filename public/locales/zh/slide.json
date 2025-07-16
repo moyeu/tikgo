@@ -1,0 +1,56 @@
+{
+
+  "nav_video": "Video",
+  "nav_mp3": "MP3",
+  "nav_slide": "Slide",
+  "nav_story": "Story",
+  
+  "service_name": "TikTok 圖片 下載",
+  "service_type": "在線下載照片和幻燈片",
+  "service_output": "JPEG 圖像檔案",
+  
+  "meta_title": "TikTok 圖片下載與幻燈片下載，無浮水印，高畫質，免費",
+  "meta_description": "TikTok 圖片下載網站，線上下載免費，無需註冊。支援 iPhone、Android、PC 下載並儲存 TikTok 高畫質圖片與幻燈片！",
+  "meta_keywords": "tiktok 圖片 下載, 下載 TikTok 幻燈片", 
+  
+
+  "title": "TikTok 圖片 下載",
+  "description": "儲存 TikTok 圖片與幻燈片，無浮水印，高畫質 HD - 4K，免費",
+
+  "extra_long_content": "## TikTok 圖片下載 – 快速儲存 TikTok 幻燈片與圖片\n\nTikTok 除了短影音內容，還允許用戶上傳圖片幻燈片 (Slideshow) 分享創意。想要下載 TikTok 圖片或幻燈片卻找不到官方選項？TikGo.me 是你的最佳解決方案，讓你輕鬆下載無浮水印的 TikTok 圖片，無需安裝應用程式。\n\n### 如何下載 TikTok 圖片無浮水印？\n\n#### 1. 複製 TikTok 圖片或幻燈片連結\n- 打開 TikTok，找到你想下載的圖片或幻燈片。\n- 點擊分享按鈕，選擇複製連結。\n\n#### 2. 貼上連結至 TikGo\n- 在瀏覽器中打開 TikGo.me。\n- 將剛剛複製的連結貼入輸入框，然後點擊下載。\n\n#### 3. 下載並儲存圖片\n- TikGo 會處理你的請求，並提供單張圖片或完整幻燈片的下載選項。\n- 選擇所需的圖片並儲存到你的裝置。",
+
+  "sum_content": "透過 TikGo，你可以輕鬆下載 TikTok 圖片，包括幻燈片，無浮水印、無需安裝應用程式，適用於 iOS、Android、Windows 及 Mac。立即前往 TikGo.me 開始下載吧！",
+
+  "extra_faq_title": "常見問題 (FAQ)",
+  "extra_faq": [
+    {
+      "faq_question": "TikGo 下載 TikTok 圖片需要付費嗎？",
+      "faq_answer": "不，TikGo 是免費的 TikTok 圖片下載網站，不需要註冊或支付任何費用。"
+    },
+    {
+      "faq_question": "下載的 TikTok 圖片會有浮水印嗎？",
+      "faq_answer": "不會，TikGo 幫助用戶下載無浮水印的 TikTok 圖片，確保原始畫質。"
+    },
+    {
+      "faq_question": "下載的圖片存放在哪裡？",
+      "faq_answer": "- **Android**：圖片存放於下載 (Downloads) 資料夾。\n- **iPhone**：可在相簿 (Photos) 或檔案 (Files) 中找到。\n- **PC/Mac**：下載的圖片會存放於預設的下載資料夾。"
+    },
+    {
+      "faq_question": "可以下載私人 TikTok 帳號的圖片嗎？",
+      "faq_answer": "不行，TikGo 只能處理公開的 TikTok 內容，無法存取私人帳號的圖片或影片。"
+    },
+    {
+      "faq_question": "是否可以下載 TikTok 幻燈片並轉換為影片？",
+      "faq_answer": "目前 TikGo 只支援下載單張圖片或完整的幻燈片，不支援將幻燈片轉換為影片。"
+    },
+    {
+      "faq_question": "我需要安裝應用程式來使用 TikGo 嗎？",
+      "faq_answer": "不需要，TikGo 是線上工具，可以直接在瀏覽器中使用，無需下載任何應用程式或插件。"
+    },
+    {
+      "faq_question": "下載 TikTok 圖片是否合法？",
+      "faq_answer": "TikGo 只是下載工具，使用者應遵守當地法律，並確保下載的內容用於個人用途，避免未經授權的商業使用。"
+    }
+  ]
+}
+
