@@ -30,7 +30,14 @@ export default function DownloadForm({ url, setUrl, loading, handleDownload }) {
                     className={styles.input}
                 />
                 <button onClick={handlePaste} className={styles.pasteButton}>
-                    <img src="/icons/clipboard.svg" alt="Paste" className={styles.pasteIcon} />
+                    <img
+                        src="/icons/clipboard.svg"
+                        alt="Paste"
+                        width="30"
+                        height="30"
+                        className={styles.pasteIcon}
+                        loading="lazy"
+                    />
                 </button>
             </div>
             <button

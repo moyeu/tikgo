@@ -101,8 +101,11 @@ export default function VideoResult({
                 {videoData.metadata?.thumbnail && (
                     <img
                         src={videoData.metadata.thumbnail}
+                        width="100"
+                        height="100"
                         alt="Thumbnail"
                         className={styles.thumbnail}
+                        loading="lazy"
                     />
                 )}
 
@@ -142,10 +145,13 @@ export default function VideoResult({
                             className={styles.cancelButton}
                             onClick={() => cancelDownload && cancelDownload()}
                         >
-                            <img 
-                                src="/icons/cancel.svg" 
-                                alt="Cancel" 
-                                className={styles.cancelIcon} 
+                            <img
+                                src="/icons/cancel.svg"
+                                alt="Cancel"
+                                width="18"
+                                height="18"
+                                className={styles.cancelIcon}
+                                loading="lazy"
                             />
                             {t('cancel_download')}
                         </button>
@@ -189,7 +195,10 @@ export default function VideoResult({
                                 <img
                                     src={media.url}
                                     alt={`Image ${index + 1}`}
+                                    width="200"
+                                    height="250"
                                     className={styles.image}
+                                    loading="lazy"
                                 />
                                 <button
                                     className={styles.imageDownloadButton}

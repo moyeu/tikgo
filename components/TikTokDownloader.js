@@ -116,7 +116,10 @@ export default function TikTokDownloader({ setHasResults }) {
                                 <img
                                     src="https://img.youtube.com/vi/P8goZfTxTmY/maxresdefault.jpg"
                                     alt={t('how_to_download')}
+                                    width="1280"
+                                    height="720"
                                     className={styles.videoThumbnail}
+                                    loading="lazy"
                                 />
                                 <div className={styles.playButton}>▶</div>
                             </div>
