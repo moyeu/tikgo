@@ -9,7 +9,8 @@ const path = require('path');
 const baseUrl = process.env.NEXT_PUBLIC_BASE_URL || 'https://tikgo.me';
 
 // 🌍 Danh sách ngôn ngữ hỗ trợ (tùy chỉnh theo nhu cầu)
-const locales = ['en', 'vi', 'id', 'ar', 'de', 'es', 'pt', 'fr', 'it', 'cz', 'tr', 'ja', 'th', 'zh-tw'];
+// const locales = ['en', 'vi', 'id', 'ar', 'de', 'es', 'pt', 'fr', 'it', 'cz', 'tr', 'ja', 'th', 'zh-tw'];
+const locales = ['en', 'vi', 'id', 'ar', 'de', 'es', 'pt', 'fr', 'it', 'cz', 'tr', 'ja', 'th', 'zh'];
 
 // 🔹 Danh sách các trang chính (trang chủ = '')
 const pages = ['', 'mp3', 'slide', 'story', 'about'];

@@ -1,15 +1,13 @@
 import { useState, useCallback, useMemo } from 'react';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
 import ReactMarkdown from 'react-markdown';
-import SeoMeta from '../components/SeoMeta'; // ✅ Import component SEO metadata
-import TikTokDownloader from '../components/TikTokDownloader'; // ✅ Import trực tiếp (Không Lazy-load)
+import SeoMeta from '../components/SeoMeta';
+import TikTokDownloader from '../components/TikTokDownloader';
+import MainNav from '../components/MainNav';
 
 export default function Mp3Download() {
   const { t } = useTranslation('mp3');
-  const router = useRouter();
   const [hasResults, setHasResults] = useState(false);
   const [openFAQ, setOpenFAQ] = useState(-1);
 
@@ -49,26 +47,8 @@ export default function Mp3Download() {
       <div className="containerWrapper">
         {/* ✅ Chỉ hiển thị navbar, title, description khi chưa có kết quả */}
         {!hasResults && (
-          <>
-            <nav className="navbar" aria-label="Main Navigation">
-              <Link href="/" className={`navItem ${router.asPath === "/" ? "active" : ""}`}>
-                <img src="/icons/video-w.svg" alt="Video" width="20" height="20" />
-                <span>{t('nav_video')}</span>
-              </Link>
-              <Link href="/mp3" className={`navItem ${router.asPath === "/mp3" ? "active" : ""}`}>
-                <img src="/icons/mp3-w.svg" alt="Music" width="20" height="20" />
-                <span>{t('nav_mp3')}</span>
-              </Link>
-              <Link href="/slide" className={`navItem ${router.asPath === "/slide" ? "active" : ""}`}>
-                <img src="/icons/slide-w.svg" alt="Slide" width="20" height="20" />
-                <span>{t('nav_slide')}</span>
-              </Link>
-              <Link href="/story" className={`navItem ${router.asPath === "/story" ? "active" : ""}`}>
-                <img src="/icons/story-w.svg" alt="Story" width="20" height="20" />
-                <span>{t('nav_story')}</span>
-              </Link>
-            </nav>
-
+          <> 
+            <MainNav t={t} />
             {/* ✅ Tiêu đề và mô tả */}
             <div className="textContainer">
               <h1 className="title">{t('title')}</h1>

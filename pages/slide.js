@@ -1,15 +1,13 @@
 import { useState, useCallback, useMemo } from 'react';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
 import ReactMarkdown from 'react-markdown';
-import SeoMeta from '../components/SeoMeta'; // ✅ Import component SEO metadata
-import TikTokDownloader from '../components/TikTokDownloader'; // ✅ Import trực tiếp mà không lazy-load
+import SeoMeta from '../components/SeoMeta';
+import TikTokDownloader from '../components/TikTokDownloader';
+import MainNav from '../components/MainNav';
 
 export default function SlideDownload() {
   const { t } = useTranslation('slide');
-  const router = useRouter();
   const [hasResults, setHasResults] = useState(false);
   const [openFAQ, setOpenFAQ] = useState(-1);
 
@@ -19,10 +17,7 @@ export default function SlideDownload() {
   }, []);
 
   // ✅ Lấy dữ liệu từ JSON
-  const nav_video = t('nav_video');
-  const nav_mp3 = t('nav_mp3');
-  const nav_slide = t('nav_slide');
-  const nav_story = t('nav_story');
+
   const title = t('title');
   const description = t('description');
   const extraLongContent = t('extra_long_content');
@@ -58,25 +53,7 @@ export default function SlideDownload() {
         {/* ✅ Chỉ hiển thị navbar, title, description khi chưa có kết quả */}
         {!hasResults && (
           <>
-            <nav className="navbar" aria-label="Main Navigation">
-              <Link href="/" className={`navItem ${router.asPath === "/" ? "active" : ""}`}>
-                <img src="/icons/video-w.svg" alt="Video" width="20" height="20" />
-                <span>{nav_video}</span>
-              </Link>
-              <Link href="/mp3" className={`navItem ${router.asPath === "/mp3" ? "active" : ""}`}>
-                <img src="/icons/mp3-w.svg" alt="Music" width="20" height="20" />
-                <span>{nav_mp3}</span>
-              </Link>
-              <Link href="/slide" className={`navItem ${router.asPath === "/slide" ? "active" : ""}`}>
-                <img src="/icons/slide-w.svg" alt="Slide" width="20" height="20" />
-                <span>{nav_slide}</span>
-              </Link>
-              <Link href="/story" className={`navItem ${router.asPath === "/story" ? "active" : ""}`}>
-                <img src="/icons/story-w.svg" alt="Story" width="20" height="20" />
-                <span>{nav_story}</span>
-              </Link>
-            </nav>
-
+            <MainNav t={t} />
             {/* ✅ Tiêu đề và mô tả */}
             <div className="textContainer">
               <h1 className="title">{title}</h1>

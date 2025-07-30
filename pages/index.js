@@ -1,11 +1,11 @@
 import { useState, useCallback, useMemo } from 'react';
 import { serverSideTranslations } from 'next-i18next/serverSideTranslations';
 import { useTranslation } from 'next-i18next';
-import Link from 'next/link';
-import { useRouter } from 'next/router';
+
 import ReactMarkdown from 'react-markdown';
 import SeoMeta from '../components/SeoMeta';
 import TikTokDownloader from '../components/TikTokDownloader';
+import MainNav from '../components/MainNav';
 import React from 'react';
 
 // Tách FAQAccordion thành component riêng, tối ưu với useMemo()
@@ -35,7 +35,6 @@ const FAQAccordion = React.memo(({ faqs, openFAQ, toggleFAQ, t }) => {
 
 export default function Home() {
   const { t } = useTranslation('video');
-  const router = useRouter();
 
   // State
   const [hasResults, setHasResults] = useState(false);
@@ -52,10 +51,7 @@ export default function Home() {
   }, []);
 
   // Lấy dữ liệu dịch một cách an toàn
-  const nav_video = t('nav_video', 'Video');
-  const nav_mp3 = t('nav_mp3', 'MP3');
-  const nav_slide = t('nav_slide', 'Slide');
-  const nav_story = t('nav_story', 'Story');
+
   const title = t('title', 'TikTok Downloader');
   const description = t('description', 'Download TikTok videos easily.');
   const extra_long_content = t('extra_long_content', '');
@@ -65,13 +61,6 @@ export default function Home() {
   // Tối ưu faqs với useMemo để tránh tạo lại mảng
   const faqs = useMemo(() => (Array.isArray(extra_faq) ? extra_faq : []), [extra_faq]);
 
-  // Tạo mảng cho Navigation sử dụng useMemo
-  const navItems = useMemo(() => [
-    { href: '/', icon: '/icons/video-w.svg', label: nav_video },
-    { href: '/mp3', icon: '/icons/mp3-w.svg', label: nav_mp3 },
-    { href: '/slide', icon: '/icons/slide-w.svg', label: nav_slide },
-    { href: '/story', icon: '/icons/story-w.svg', label: nav_story },
-  ], [nav_video, nav_mp3, nav_slide, nav_story]);
 
   // Tối ưu hóa ReactMarkdown với useMemo để tránh re-render
   const memoizedExtraLongContent = useMemo(() => (
@@ -97,19 +86,7 @@ export default function Home() {
       <div className="containerWrapper">
         {!hasResults && (
           <>
-            <nav className="navbar" aria-label="Main Navigation">
-              {navItems.map(({ href, icon, label }) => (
-                <Link
-                  key={href}
-                  href={href}
-                  className={`navItem ${router.asPath === href ? 'active' : ''}`}
-                >
-                  <img src={icon} alt={label} width="20" height="20" />
-                  <span>{label}</span>
-                </Link>
-              ))}
-            </nav>
-
+            <MainNav t={t} />
             <div className="textContainer">
               <h1 className="title">{title}</h1>
               <p className="description">{description}</p>
