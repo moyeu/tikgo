@@ -1,0 +1,26 @@
+{
+  "title": "Privacy Policy",
+  "description": "This document outlines TikGo’s approach to user privacy. Please review it carefully and reach out if you have any concerns.",
+  
+  "intro": "At TikGo, we respect user privacy and are committed to ensuring a secure browsing experience. Below, you will find details about how we handle personal information and other data.",
+
+  "personal_info": {
+    "title": "Personal Data and Privacy",
+    "content": "TikGo allows users to access our services without requiring them to submit personal information. We do not collect, store, or request any personal identification details unless the user voluntarily provides them. If false or misleading information is detected, TikGo reserves the right to restrict access to maintain platform integrity."
+  },
+
+  "policy_changes": {
+    "title": "Privacy Policy Updates",
+    "content": "TikGo may update this privacy policy as necessary to enhance transparency and improve security. In case of significant changes, we will notify users by posting an announcement on our main page. We recommend checking this page regularly to stay informed about how we protect user privacy."
+  },
+
+  "advertising": {
+    "title": "Advertising and Cookies",
+    "content": "To support the platform, TikGo displays advertisements from third-party partners. These advertisers may use cookies to collect non-personal browsing data. However, no personally identifiable information, such as names or emails, is gathered. Users can choose to disable cookies in their browser settings or discontinue the use of our services at any time."
+  },
+
+  "acceptance": {
+    "title": "Agreement to Terms",
+    "content": "By using TikGo, you acknowledge and agree to this privacy policy. If you do not accept these terms, please discontinue using our services. Continued use of the platform after any updates to this policy indicates your acceptance of the revised terms."
+  }
+}

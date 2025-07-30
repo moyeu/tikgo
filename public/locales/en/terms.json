@@ -1,0 +1,40 @@
+{
+  "title": "Terms of Service",
+  "description": "Please read these Terms of Service carefully before using TikGo. By accessing our website, you agree to these terms.",
+  
+  "intro": "These Terms of Service constitute a legally binding agreement between you and TikGo. By using our website and services, you agree to comply with these terms and any additional policies outlined on our platform. If you do not accept these terms, please refrain from using TikGo. The content on this website is protected by copyright and intellectual property laws.",
+
+  "intellectual_property": {
+    "title": "Intellectual Property",
+    
+    "use_license": {
+      "title": "Use License",
+      "content": "TikGo grants users a temporary, limited license to access and download content solely for personal and non-commercial use. This license does not transfer ownership of any materials, and under this agreement, you may not:\n- Modify, redistribute, or copy the content.\n- Use content for commercial or public display.\n- Remove copyright or proprietary notices from the content.\n- Share, transfer, or host content on external servers."
+    },
+    
+    "copyright": {
+      "title": "Copyright",
+      "content": "TikGo respects intellectual property rights and expects users to do the same.\n- Users are responsible for ensuring they have the legal right to download and use content.\n- TikGo only provides access to content that is publicly available.\n- TikGo does not verify the legal status of downloaded content, and users must ensure compliance with copyright laws.\n- Any misuse or violation may result in restricted access to our services.\n- TikGo does not store or retain any user-downloaded content."
+    }
+  },
+
+  "disclaimer": {
+    "title": "Disclaimer",
+    "content": "The content available on TikGo is provided 'as is' without any warranties. TikGo disclaims all warranties, including implied warranties of merchantability and fitness for a particular purpose. We do not guarantee the accuracy, reliability, or legality of any content available through our services."
+  },
+
+  "links": {
+    "title": "Third-Party Links",
+    "content": "TikGo may contain links to external websites. We do not monitor or endorse these third-party sites and are not responsible for their content. Visiting third-party websites is at the user's discretion and risk."
+  },
+
+  "limitations": {
+    "title": "Limitations of Liability",
+    "content": "TikGo is not liable for any direct, indirect, incidental, or consequential damages resulting from the use or inability to use our services. Some jurisdictions may not allow certain liability exclusions, so these limitations may not apply to all users."
+  },
+
+  "modifications": {
+    "title": "Changes to Terms",
+    "content": "TikGo reserves the right to update these terms at any time without prior notice. By continuing to use our services after changes are made, you accept the updated terms."
+  }
+}

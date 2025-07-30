@@ -1,0 +1,55 @@
+{
+  "title": "Giới thiệu về TikGo",
+  "description": "TikGo giúp bạn tải video TikTok không có logo, nhanh chóng và miễn phí.",
+  "intro": "TikGo ra mắt năm 2024 với mục tiêu giúp người dùng tải video TikTok dễ dàng hơn. Không cần cài đặt phần mềm—chỉ cần sử dụng trình duyệt để lưu video ngay lập tức.",
+
+  "mission": {
+    "title": "Sứ mệnh của chúng tôi",
+    "content": "Chúng tôi hướng đến việc cung cấp một giải pháp nhanh chóng, dễ sử dụng và đáng tin cậy để tải video và hình ảnh từ TikTok mà không có logo."
+  },
+
+  "services": {
+    "title": "Dịch vụ của chúng tôi",
+    "video_downloader": "Tải video TikTok không có logo.",
+    "slideshow_downloader": "Lưu ảnh và video từ slideshow TikTok.",
+    "story_downloader": "Tải xuống story TikTok dưới dạng MP4.",
+    "tiktok_to_mp3": "Chuyển đổi video TikTok sang MP3."
+  },
+
+  "advantages": {
+    "title": "Tại sao chọn TikGo?",
+    "no_watermark": "Video sạch: Không có logo hay dấu watermark.",
+    "free": "Hoàn toàn miễn phí: Không có phí ẩn.",
+    "cross_platform": "Hoạt động trên mọi nền tảng: Điện thoại, máy tính bảng, hoặc PC.",
+    "high_quality": "Chất lượng HD: Tải video với độ phân giải cao nhất.",
+    "easy_to_use": "Dễ sử dụng: Không cần đăng ký, không cần cài đặt ứng dụng.",
+    "multilingual": "Hỗ trợ nhiều ngôn ngữ."
+  },
+
+  "values": {
+    "title": "Giá trị cốt lõi",
+    "community": "Lấy người dùng làm trung tâm: Lắng nghe và không ngừng cải thiện.",
+    "trustworthy": "Bảo mật và riêng tư: Chúng tôi không lưu lịch sử tải xuống.",
+    "easy_to_use": "Thiết kế đơn giản, dễ sử dụng cho tất cả mọi người."
+  },
+
+  "feedback": {
+    "title": "Góp ý của bạn rất quan trọng",
+    "content": "Chúng tôi rất mong nhận được phản hồi từ bạn! Hãy giúp chúng tôi cải thiện dịch vụ bằng cách chia sẻ ý kiến của bạn.",
+    "link": "Liên hệ với chúng tôi"
+  },
+
+  "community": {
+    "title": "Tham gia cộng đồng TikGo",
+    "content": "Hàng ngàn người dùng tin tưởng TikGo để tải video TikTok nhanh chóng và dễ dàng. Hãy tham gia cùng chúng tôi!"
+  },
+  "contact": {
+    "title": "Liên hệ với chúng tôi",
+    "description": "Nếu bạn có bất kỳ câu hỏi nào về dịch vụ, cần báo cáo sự cố hoặc muốn hợp tác quảng cáo, vui lòng liên hệ với chúng tôi.",
+    "contact_info": "Bạn có thể liên hệ với chúng tôi qua các phương thức sau:",
+    "telegram": "Telegram",
+    "email": "Email",
+    "form_instruction": "Hoặc gửi tin nhắn trực tiếp qua mẫu bên dưới:",
+    "loading": "Đang tải..."
+  }
+}

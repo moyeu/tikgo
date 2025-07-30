@@ -1,0 +1,40 @@
+{
+  "title": "Hizmet Şartları",
+  "description": "TikGo'yu kullanmadan önce lütfen Hizmet Şartlarını dikkatlice okuyun. Web sitemize erişerek bu şartları kabul etmiş olursunuz.",
+  
+  "intro": "Bu Hizmet Şartları, sizinle TikGo arasında yasal olarak bağlayıcı bir sözleşmedir. Web sitemizi ve hizmetlerimizi kullanarak, bu şartlara ve platformumuzda belirtilen ek politikalara uymayı kabul etmiş olursunuz. Eğer bu şartları kabul etmiyorsanız, lütfen TikGo'yu kullanmayın. Bu web sitesindeki içerikler, telif hakkı ve fikri mülkiyet yasaları tarafından korunmaktadır.",
+
+  "intellectual_property": {
+    "title": "Fikri Mülkiyet Hakları",
+    
+    "use_license": {
+      "title": "Kullanım Lisansı",
+      "content": "TikGo, kullanıcılara yalnızca kişisel ve ticari olmayan kullanım amacıyla içeriğe erişmeleri ve indirmeleri için geçici ve sınırlı bir lisans sağlar. Bu lisans, içeriklerin mülkiyetini devretmez ve aşağıdaki işlemleri yapamazsınız:\n- İçeriği değiştirmek, yeniden dağıtmak veya kopyalamak.\n- İçeriği ticari veya halka açık gösterim amacıyla kullanmak.\n- İçerikte bulunan telif hakkı veya diğer mülkiyet bildirimlerini kaldırmak.\n- İçeriği paylaşmak, aktarmak veya harici sunucularda barındırmak."
+    },
+    
+    "copyright": {
+      "title": "Telif Hakkı",
+      "content": "TikGo, fikri mülkiyet haklarına saygı duyar ve kullanıcıların da aynısını yapmasını bekler.\n- Kullanıcılar, içerikleri indirme ve kullanma hakkına sahip olduklarından emin olmalıdır.\n- TikGo yalnızca herkese açık olarak sunulan içeriklere erişim sağlar.\n- TikGo, indirilen içeriklerin yasal durumunu doğrulamaz ve kullanıcıların telif hakkı yasalarına uygun hareket etmesi gerekir.\n- Kötüye kullanım veya ihlal tespit edilirse, hizmetlerimize erişim kısıtlanabilir.\n- TikGo, kullanıcıların indirdiği içerikleri saklamaz veya arşivlemez."
+    }
+  },
+
+  "disclaimer": {
+    "title": "Sorumluluk Reddi",
+    "content": "TikGo'da sunulan içerikler 'olduğu gibi' sağlanmaktadır ve herhangi bir garanti verilmemektedir. TikGo, satılabilirlik ve belirli bir amaca uygunluk dahil ancak bunlarla sınırlı olmamak üzere tüm garantileri reddeder. Hizmetlerimiz aracılığıyla sunulan içeriklerin doğruluğu, güvenilirliği veya yasallığı konusunda herhangi bir garanti vermiyoruz."
+  },
+
+  "links": {
+    "title": "Üçüncü Taraf Bağlantıları",
+    "content": "TikGo, harici web sitelerine bağlantılar içerebilir. Bu üçüncü taraf sitelerini denetlemiyoruz veya onaylamıyoruz ve içeriklerinden sorumlu değiliz. Üçüncü taraf web sitelerine erişim, kullanıcının kendi sorumluluğundadır."
+  },
+
+  "limitations": {
+    "title": "Sorumluluk Sınırlamaları",
+    "content": "TikGo, hizmetlerimizin kullanımı veya kullanılamamasından kaynaklanan doğrudan, dolaylı, tesadüfi veya sonuç olarak ortaya çıkan zararlardan sorumlu tutulamaz. Bazı yargı bölgeleri belirli sorumluluk sınırlamalarına izin vermeyebilir, bu nedenle bu sınırlamalar tüm kullanıcılar için geçerli olmayabilir."
+  },
+
+  "modifications": {
+    "title": "Hizmet Şartlarında Değişiklikler",
+    "content": "TikGo, bu şartları herhangi bir zamanda önceden bildirimde bulunmaksızın güncelleme hakkını saklı tutar. Değişikliklerden sonra hizmetlerimizi kullanmaya devam etmeniz, güncellenmiş şartları kabul ettiğiniz anlamına gelir."
+  }
+}

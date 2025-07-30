@@ -1,0 +1,40 @@
+{
+  "title": "Podmínky služby",
+  "description": "Před použitím TikGo si prosím pečlivě přečtěte tyto podmínky služby. Přístupem na náš web souhlasíte s těmito podmínkami.",
+  
+  "intro": "Tyto podmínky služby představují právně závaznou dohodu mezi vámi a TikGo. Používáním našich webových stránek a služeb souhlasíte s dodržováním těchto podmínek a jakýchkoli dalších zásad uvedených na naší platformě. Pokud s těmito podmínkami nesouhlasíte, nepoužívejte TikGo. Obsah na této webové stránce je chráněn autorským právem a zákony o duševním vlastnictví.",
+
+  "intellectual_property": {
+    "title": "Duševní vlastnictví",
+    
+    "use_license": {
+      "title": "Licenční podmínky",
+      "content": "TikGo uděluje uživatelům dočasnou omezenou licenci k přístupu a stahování obsahu pouze pro osobní a nekomerční použití. Tato licence nepřenáší vlastnictví žádných materiálů a v rámci této dohody nesmíte:\n- Upravit, šířit nebo kopírovat obsah.\n- Používat obsah pro komerční účely nebo veřejné zobrazení.\n- Odstraňovat autorská práva nebo jiné vlastnické poznámky z obsahu.\n- Sdílet, přenášet nebo hostovat obsah na externích serverech."
+    },
+    
+    "copyright": {
+      "title": "Autorská práva",
+      "content": "TikGo respektuje práva duševního vlastnictví a očekává, že uživatelé budou dělat totéž.\n- Uživatelé jsou odpovědní za zajištění právního oprávnění ke stažení a použití obsahu.\n- TikGo poskytuje přístup pouze k veřejně dostupnému obsahu.\n- TikGo neověřuje právní status staženého obsahu a uživatelé musí zajistit soulad s autorskými zákony.\n- Jakékoli zneužití nebo porušení může vést k omezenému přístupu ke službám.\n- TikGo neukládá ani nearchivuje obsah stažený uživateli."
+    }
+  },
+
+  "disclaimer": {
+    "title": "Odmítnutí odpovědnosti",
+    "content": "Obsah dostupný na TikGo je poskytován 'tak, jak je', bez jakýchkoli záruk. TikGo odmítá veškeré záruky, včetně předpokládaných záruk obchodovatelnosti a vhodnosti pro konkrétní účel. Nezaručujeme přesnost, spolehlivost nebo zákonnost žádného obsahu dostupného prostřednictvím našich služeb."
+  },
+
+  "links": {
+    "title": "Odkazy třetích stran",
+    "content": "TikGo může obsahovat odkazy na externí webové stránky. Tyto weby nejsou monitorovány ani schvalovány TikGo a neneseme odpovědnost za jejich obsah. Přístup na weby třetích stran je na vlastní riziko uživatele."
+  },
+
+  "limitations": {
+    "title": "Omezení odpovědnosti",
+    "content": "TikGo nenese odpovědnost za žádné přímé, nepřímé, náhodné nebo následné škody vyplývající z používání nebo nemožnosti používat naše služby. Některé jurisdikce nemusí umožňovat určitá vyloučení odpovědnosti, takže tato omezení se nemusí vztahovat na všechny uživatele."
+  },
+
+  "modifications": {
+    "title": "Změny podmínek",
+    "content": "TikGo si vyhrazuje právo kdykoli tyto podmínky aktualizovat bez předchozího upozornění. Pokračováním v používání našich služeb po provedení změn přijímáte aktualizované podmínky."
+  }
+}

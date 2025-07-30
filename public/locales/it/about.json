@@ -1,0 +1,57 @@
+{
+  "title": "Informazioni su TikGo",
+  "description": "TikGo ti aiuta a scaricare video da TikTok senza watermark, in modo veloce e gratuito.",
+  "intro": "TikGo è stato lanciato nel 2024 per semplificare il download dei video da TikTok. Non serve alcun software: basta usare il tuo browser per salvare i video all'istante.",
+
+  "mission": {
+    "title": "La nostra missione",
+    "content": "Il nostro obiettivo è offrire un modo veloce, semplice e affidabile per scaricare video e foto da TikTok senza watermark."
+  },
+
+  "services": {
+    "title": "I nostri servizi",
+    "video_downloader": "Scarica video da TikTok senza watermark.",
+    "slideshow_downloader": "Salva foto e video dalle slideshow di TikTok.",
+    "story_downloader": "Scarica le storie di TikTok in formato MP4.",
+    "tiktok_to_mp3": "Converti video TikTok in audio MP3."
+  },
+
+  "advantages": {
+    "title": "Perché scegliere TikGo?",
+    "no_watermark": "Video puliti: senza watermark o loghi.",
+    "free": "Completamente gratuito: nessun costo nascosto.",
+    "cross_platform": "Compatibile con tutti i dispositivi: smartphone, tablet e PC.",
+    "high_quality": "Qualità HD: scarica i video nella migliore risoluzione.",
+    "easy_to_use": "Facile da usare: nessuna registrazione o installazione richiesta.",
+    "multilingual": "Supporta più lingue."
+  },
+
+  "values": {
+    "title": "I nostri valori",
+    "community": "Orientato agli utenti: ascoltiamo e miglioriamo continuamente.",
+    "trustworthy": "Privacy garantita: non memorizziamo i download.",
+    "easy_to_use": "Progettato per essere accessibile a tutti."
+  },
+
+  "feedback": {
+    "title": "La tua opinione è importante",
+    "content": "Siamo felici di ascoltare il tuo feedback! Aiutaci a migliorare condividendo la tua esperienza.",
+    "link": "Contattaci"
+  },
+
+  "community": {
+    "title": "Unisciti alla nostra community",
+    "content": "Migliaia di utenti si affidano a TikGo per scaricare video TikTok in modo rapido e semplice. Entra a far parte della nostra rete!"
+  },
+
+  "contact": {
+    "title": "Contattaci",
+    "description": "Se hai domande sui nostri servizi, vuoi segnalare un problema o collaborare per la pubblicità, non esitare a contattarci.",
+    "contact_info": "Puoi contattarci attraverso i seguenti metodi:",
+    "telegram": "Telegram",
+    "email": "Email",
+    "form_instruction": "Oppure inviaci un messaggio direttamente tramite il modulo qui sotto:",
+    "loading": "Caricamento in corso..."
+  }
+
+}

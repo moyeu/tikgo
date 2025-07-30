@@ -1,0 +1,57 @@
+{
+  "title": "TikGoについて",
+  "description": "TikGoは、TikTok動画を透かしなしで高速かつ無料でダウンロードできるツールです。",
+  "intro": "TikGoは2024年にリリースされ、TikTok動画のダウンロードを簡単にしました。ソフトウェア不要—ブラウザを使ってすぐに動画を保存できます。",
+
+  "mission": {
+    "title": "私たちのミッション",
+    "content": "私たちの目標は、TikTokの動画や写真を透かしなしで、迅速かつ簡単に、そして信頼できる方法でダウンロードできるようにすることです。"
+  },
+
+  "services": {
+    "title": "提供サービス",
+    "video_downloader": "TikTok動画を透かしなしでダウンロード。",
+    "slideshow_downloader": "TikTokスライドショーから写真や動画を保存。",
+    "story_downloader": "TikTokストーリーをMP4形式でダウンロード。",
+    "tiktok_to_mp3": "TikTok動画をMP3オーディオに変換。"
+  },
+
+  "advantages": {
+    "title": "TikGoを選ぶ理由",
+    "no_watermark": "透かしなし: ロゴや透かしなしのクリーンな動画。",
+    "free": "完全無料: 隠れた料金なし。",
+    "cross_platform": "どこでも利用可能: スマホ、タブレット、PCに対応。",
+    "high_quality": "高画質: 最高の解像度で動画をダウンロード。",
+    "easy_to_use": "簡単操作: 登録やアプリのダウンロード不要。",
+    "multilingual": "多言語対応: 世界中のユーザーに対応。"
+  },
+
+  "values": {
+    "title": "私たちの価値",
+    "community": "ユーザー第一: フィードバックを大切にし、改善を続けます。",
+    "trustworthy": "プライバシー保護: ダウンロード履歴を保存しません。",
+    "easy_to_use": "誰でも簡単に使える設計。"
+  },
+
+  "feedback": {
+    "title": "あなたの意見が大切です",
+    "content": "ぜひフィードバックをお寄せください！改善のためにご意見をお聞かせください。",
+    "link": "お問い合わせ"
+  },
+
+  "community": {
+    "title": "コミュニティに参加",
+    "content": "何千人ものユーザーがTikGoを信頼し、TikTok動画を簡単かつ迅速にダウンロードしています。ぜひご参加ください！"
+  },
+
+  "contact": {
+    "title": "お問い合わせ",
+    "description": "当社のサービスに関する質問、問題の報告、広告の協力については、お気軽にお問い合わせください。",
+    "contact_info": "以下の方法でご連絡いただけます：",
+    "telegram": "テレグラム",
+    "email": "メール",
+    "form_instruction": "または、以下のフォームから直接メッセージをお送りください。",
+    "loading": "読み込み中..."
+  }
+  
+}

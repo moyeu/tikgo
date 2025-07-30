@@ -1,0 +1,41 @@
+{
+  "clipboard_error": "您的瀏覽器不支援剪貼簿或權限被拒絕。",
+  "clipboard_empty": "剪貼簿是空的！請重新複製連結。",
+  "clipboard_permission_denied": "無法從剪貼簿貼上！請手動輸入連結。",
+  "paste_placeholder": "請在此處貼上 TikTok 連結...",
+  "paste_button": "貼上",
+  "download_button": "下載",
+  "page_not_found": "找不到頁面",
+  "oops_message": "糟糕！您要查找的頁面不存在。",
+  "go_home": "返回首頁",
+  "loading": "處理中...",
+  "how_to_download": "點擊觀看下載教學影片",
+  "video_found": "已找到影片：",
+  "download_now": "立即下載",
+  "download_another": "下載其他影片",
+  "no_download_options": "沒有可用的下載選項。",
+  "cancel_download": "取消下載",
+  "footer": {
+    "tools": "工具",
+    "company": "公司",
+    "follow_us": "關注我們",
+    "terms": "服務條款",
+    "privacy": "隱私政策",
+    "about": "關於我們",
+    "contact": "聯絡我們",
+    "tiktok_video": "TikTok 影片下載器",
+    "tiktok_mp3": "TikTok 轉 MP3 轉換器",
+    "tiktok_slide": "TikTok 照片下載器",
+    "tiktok_story": "TikTok 限時動態下載器",
+    "copyright": "TikGo Downloader. 版權所有."
+  },
+  
+  "shareMessage": " 人在過去一小時內分享了！",
+  "popupTitle": "🚀 分享以獲得更快的下載速度！",
+  "popupDescription": "分享此網站以獲得更快的下載速度並增加下載次數！",
+  "shareButton": "立即分享",
+  "skipButton": "跳過",
+  "copyLink": "複製連結",
+  "copySuccess": "複製成功"
+
+}

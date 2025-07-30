@@ -1,0 +1,57 @@
+{
+  "title": "關於 TikGo",
+  "description": "TikGo 幫助您快速免費下載無浮水印的 TikTok 影片。",
+  "intro": "TikGo 於 2024 年推出，旨在讓 TikTok 影片下載變得更加簡單。無需安裝軟體——只需使用瀏覽器即可立即保存影片。",
+
+  "mission": {
+    "title": "我們的使命",
+    "content": "我們的目標是提供快速、簡單且可靠的方法，幫助用戶下載無浮水印的 TikTok 影片與圖片。"
+  },
+
+  "services": {
+    "title": "我們的服務",
+    "video_downloader": "下載無浮水印的 TikTok 影片。",
+    "slideshow_downloader": "保存 TikTok 幻燈片中的照片與影片。",
+    "story_downloader": "下載 TikTok 限時動態（Story），MP4 格式。",
+    "tiktok_to_mp3": "將 TikTok 影片轉換為 MP3 音訊。"
+  },
+
+  "advantages": {
+    "title": "為什麼選擇 TikGo？",
+    "no_watermark": "純淨影片：無浮水印或標誌。",
+    "free": "完全免費：無隱藏費用。",
+    "cross_platform": "跨平台使用：適用於手機、平板和電腦。",
+    "high_quality": "高畫質：下載最佳解析度的影片。",
+    "easy_to_use": "簡單易用：無需註冊或下載應用程式。",
+    "multilingual": "支援多種語言。"
+  },
+
+  "values": {
+    "title": "我們的核心價值",
+    "community": "以用戶為中心：傾聽回饋並持續改進。",
+    "trustworthy": "隱私優先：我們不儲存下載記錄。",
+    "easy_to_use": "為所有用戶設計，簡單易用。"
+  },
+
+  "feedback": {
+    "title": "您的意見很重要",
+    "content": "我們希望聽取您的建議！請分享您的回饋，幫助我們改進服務。",
+    "link": "聯絡我們"
+  },
+
+  "community": {
+    "title": "加入 TikGo 社群",
+    "content": "成千上萬的用戶信任 TikGo，輕鬆快速地下載 TikTok 影片。立即加入我們！"
+  },
+  
+  "contact": {
+    "title": "聯絡我們",
+    "description": "如果您對我們的服務有任何疑問、需要回報問題或希望合作廣告，請隨時與我們聯繫。",
+    "contact_info": "您可以通過以下方式聯繫我們：",
+    "telegram": "Telegram",
+    "email": "電子郵件",
+    "form_instruction": "或者通過下方表單直接發送訊息給我們：",
+    "loading": "加載中..."
+  }
+
+}

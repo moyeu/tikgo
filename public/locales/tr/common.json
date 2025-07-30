@@ -1,0 +1,41 @@
+{
+  "clipboard_error": "Tarayıcınız pano desteği sunmuyor veya izin reddedildi.",
+  "clipboard_empty": "Pano boş! Lütfen bağlantıyı tekrar kopyalayın.",
+  "clipboard_permission_denied": "Panodan yapıştırılamıyor! Lütfen bağlantıyı manuel olarak girin.",
+  "paste_placeholder": "TikTok URL’sini buraya yapıştırın...",
+  "paste_button": "Yapıştır",
+  "download_button": "İndir",
+  "page_not_found": "Sayfa Bulunamadı",
+  "oops_message": "Üzgünüz! Aradığınız sayfa mevcut değil.",
+  "go_home": "Ana Sayfaya Git",
+  "loading": "İşleniyor...",
+  "how_to_download": "İndirme eğitim videosunu izlemek için tıklayın",
+  "video_found": "Video Bulundu:",
+  "download_now": "Şimdi İndir",
+  "download_another": "Başka bir video indir",
+  "no_download_options": "Mevcut indirme seçeneği yok.",
+  "cancel_download": "İndirmeyi iptal et",
+  "footer": {
+    "tools": "Araçlar",
+    "company": "Şirket",
+    "follow_us": "Bizi takip edin",
+    "terms": "Hizmet Şartları",
+    "privacy": "Gizlilik Politikası",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "tiktok_video": "TikTok Video İndirici",
+    "tiktok_mp3": "TikTok'tan MP3'e Dönüştürücü",
+    "tiktok_slide": "TikTok Fotoğraf İndirici",
+    "tiktok_story": "TikTok Hikaye İndirici",
+    "copyright": "TikGo Downloader. Tüm hakları saklıdır."
+  },
+  
+  "shareMessage": " kişi son bir saatte paylaştı!",
+  "popupTitle": "🚀 Daha hızlı indirme hızları için paylaşın!",
+  "popupDescription": "Daha hızlı indirme hızları almak ve indirme sayısını artırmak için bu web sitesini paylaşın!",
+  "shareButton": "Şimdi paylaş",
+  "skipButton": "Atla",
+  "copyLink": "Bağlantıyı kopyala",
+  "copySuccess": "Başarıyla kopyalandı"
+
+}

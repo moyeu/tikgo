@@ -1,0 +1,54 @@
+{
+
+  "nav_video": "Video",
+  "nav_mp3": "MP3",
+  "nav_slide": "Slide",
+  "nav_story": "Story",
+  
+  "service_name": "TikTok 限時動態 下載",
+  "service_type": "線上視頻下載服務",
+  "service_output": "MP4視頻文件",
+  
+  "meta_title": "TikTok 限時動態下載 無浮水印 - 高清免費",
+  "meta_description": "TikTok 限時動態下載網站，線上下載，免費，無需註冊。支援 iPhone、Android、PC 下載並儲存 TikTok 高清限時動態影片！",
+  "meta_keywords": "TikTok 限時動態 下載, 下載 TikTok 限時動態", 
+  
+  "title": "TikTok 限時動態 下載",
+  "description": "儲存 TikTok 限時動態 無浮水印，免費，無需註冊",
+
+  "extra_long_content": "## TikTok 限時動態下載 – 快速保存 TikTok Story\n\nTikTok 限時動態 (Story) 會在 24 小時後自動消失，想保存這些精彩時刻？TikGo.me 讓你輕鬆下載 TikTok 限時動態 MP4，無浮水印、高畫質，適用於 iPhone、Android、Windows、Mac，無需安裝應用程式。\n\n### 如何下載 TikTok 限時動態無浮水印？\n\n#### 1. 複製 TikTok 限時動態連結\n- 打開 TikTok，找到你想下載的限時動態。\n- 點擊分享按鈕，然後選擇複製連結。\n\n#### 2. 貼上連結至 TikGo\n- 打開瀏覽器並前往 TikGo.me。\n- 將剛剛複製的連結貼入輸入框，然後點擊下載。\n\n#### 3. 下載 MP4 檔案至裝置\n- TikGo 會處理影片並移除浮水印。\n- 選擇 MP4 格式，然後將影片儲存至你的裝置。",
+
+  "sum_content": "使用 TikGo，你可以輕鬆下載 TikTok 限時動態，並獲得 MP4 高畫質無浮水印影片，適用於各種裝置。現在就前往 TikGo.me 開始下載吧！",
+
+  "extra_faq_title": "常見問題 (FAQ)",
+  "extra_faq": [
+    {
+      "faq_question": "TikGo 支援高畫質的 TikTok 限時動態下載嗎？",
+      "faq_answer": "是的，TikGo 是最佳的 TikTok 限時動態下載網站，支援最高 4K 解析度，確保最佳觀看體驗。"
+    },
+    {
+      "faq_question": "我可以下載私人帳號的限時動態嗎？",
+      "faq_answer": "不可以，TikGo 只能下載公開的 TikTok 限時動態，無法存取私人內容。"
+    },
+    {
+      "faq_question": "下載的 TikTok 限時動態影片會存放在哪裡？",
+      "faq_answer": "- **Android**：下載的影片通常存放於下載 (Downloads) 資料夾。\n- **iPhone**：可在檔案 (Files) 或相簿 (Photos) 中找到。\n- **PC/Mac**：影片會存入預設的下載資料夾。"
+    },
+    {
+      "faq_question": "TikGo 下載 TikTok 限時動態需要付費嗎？",
+      "faq_answer": "不，TikGo 是免費的下載工具，無需支付任何費用或註冊帳號。"
+    },
+    {
+      "faq_question": "TikGo 可以下載已過期的限時動態嗎？",
+      "faq_answer": "不行，一旦限時動態超過 24 小時並消失，TikGo 就無法存取該內容。"
+    },
+    {
+      "faq_question": "下載的 TikTok 限時動態影片能用來創作嗎？",
+      "faq_answer": "如果影片屬於你自己，你可以自由使用。如果是其他創作者的內容，請確保獲得授權，避免違反版權規範。"
+    },
+    {
+      "faq_question": "我需要安裝應用程式來使用 TikGo 嗎？",
+      "faq_answer": "不需要，TikGo 是線上下載工具，可直接透過瀏覽器使用，無需安裝額外的應用程式或插件。"
+    }
+  ]
+}

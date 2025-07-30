@@ -1,0 +1,57 @@
+{
+  "title": "TikGo Hakkında",
+  "description": "TikGo, TikTok videolarını filigransız, hızlı ve ücretsiz indirmenizi sağlar.",
+  "intro": "TikGo, 2024 yılında TikTok videolarının indirilmesini kolaylaştırmak amacıyla kuruldu. Yazılıma gerek yok—sadece tarayıcınızı kullanarak videoları anında kaydedin.",
+
+  "mission": {
+    "title": "Misyonumuz",
+    "content": "Amacımız, TikTok videolarını ve fotoğraflarını filigransız bir şekilde hızlı, kolay ve güvenilir bir şekilde indirmenizi sağlamaktır."
+  },
+
+  "services": {
+    "title": "Hizmetlerimiz",
+    "video_downloader": "TikTok videolarını filigransız indirin.",
+    "slideshow_downloader": "TikTok slayt gösterilerinden fotoğraf ve videoları kaydedin.",
+    "story_downloader": "TikTok hikayelerini MP4 formatında indirin.",
+    "tiktok_to_mp3": "TikTok videolarını MP3 ses formatına dönüştürün."
+  },
+
+  "advantages": {
+    "title": "Neden TikGo'yu Seçmelisiniz?",
+    "no_watermark": "Temiz Videolar: Filigransız ve logosuz.",
+    "free": "Tamamen Ücretsiz: Gizli ücretler yok.",
+    "cross_platform": "Her Yerde Çalışır: Mobil, tablet veya PC'de kullanabilirsiniz.",
+    "high_quality": "HD Kalite: En iyi video çözünürlüğünü indirin.",
+    "easy_to_use": "Kullanımı Kolay: Kayıt gerektirmez, uygulama yüklemenize gerek yok.",
+    "multilingual": "Birden Fazla Dili Destekler."
+  },
+
+  "values": {
+    "title": "Değerlerimiz",
+    "community": "Kullanıcı Odaklı: Geri bildirimleri dinliyor ve geliştiriyoruz.",
+    "trustworthy": "Gizlilik Önceliğimizdir: İndirme geçmişinizi saklamıyoruz.",
+    "easy_to_use": "Herkesin kullanabileceği şekilde tasarlanmıştır."
+  },
+
+  "feedback": {
+    "title": "Görüşleriniz Önemlidir",
+    "content": "Görüşlerinizi duymaktan memnuniyet duyarız! Geri bildirimlerinizi paylaşarak hizmetlerimizi geliştirmemize yardımcı olun.",
+    "link": "Bize Ulaşın"
+  },
+
+  "community": {
+    "title": "Topluluğumuza Katılın",
+    "content": "Binlerce kullanıcı TikTok videolarını hızlı ve kolay bir şekilde indirmek için TikGo'ya güveniyor. Siz de bize katılın!"
+  },
+  
+  "contact": {
+    "title": "Bize Ulaşın",
+    "description": "Hizmetlerimiz hakkında sorularınız varsa, bir sorun bildirmek istiyorsanız veya reklam iş birliği yapmak istiyorsanız, bizimle iletişime geçmekten çekinmeyin.",
+    "contact_info": "Bize aşağıdaki yöntemlerle ulaşabilirsiniz:",
+    "telegram": "Telegram",
+    "email": "E-posta",
+    "form_instruction": "Veya aşağıdaki formu kullanarak doğrudan bize mesaj gönderin:",
+    "loading": "Yükleniyor..."
+  }
+
+}

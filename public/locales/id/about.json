@@ -1,0 +1,55 @@
+{
+  "title": "Tentang TikGo",
+  "description": "TikGo membantu Anda mengunduh video TikTok tanpa watermark, cepat dan gratis.",
+  "intro": "TikGo diluncurkan pada tahun 2024 untuk mempermudah pengunduhan video TikTok. Tidak perlu perangkat lunak—cukup gunakan browser Anda untuk menyimpan video secara instan.",
+
+  "mission": {
+    "title": "Misi Kami",
+    "content": "Kami bertujuan untuk menyediakan cara yang cepat, mudah, dan andal untuk mengunduh video dan foto TikTok tanpa watermark."
+  },
+
+  "services": {
+    "title": "Layanan Kami",
+    "video_downloader": "Unduh video TikTok tanpa watermark.",
+    "slideshow_downloader": "Simpan foto dan video dari slideshow TikTok.",
+    "story_downloader": "Unduh story TikTok dalam format MP4.",
+    "tiktok_to_mp3": "Konversi video TikTok ke audio MP3."
+  },
+
+  "advantages": {
+    "title": "Mengapa Memilih TikGo?",
+    "no_watermark": "Video Bersih: Tanpa watermark atau logo.",
+    "free": "100% Gratis: Tidak ada biaya tersembunyi.",
+    "cross_platform": "Dapat Digunakan di Mana Saja: Mobile, tablet, atau PC.",
+    "high_quality": "Kualitas HD: Unduh video dengan resolusi terbaik.",
+    "easy_to_use": "Mudah Digunakan: Tanpa registrasi atau pengunduhan aplikasi.",
+    "multilingual": "Mendukung berbagai bahasa."
+  },
+
+  "values": {
+    "title": "Nilai-Nilai Kami",
+    "community": "Berorientasi pada Pengguna: Kami mendengarkan dan terus meningkatkan layanan.",
+    "trustworthy": "Privasi Terjamin: Kami tidak menyimpan riwayat unduhan.",
+    "easy_to_use": "Didesain agar mudah digunakan oleh siapa saja."
+  },
+
+  "feedback": {
+    "title": "Pendapat Anda Penting",
+    "content": "Kami ingin mendengar pendapat Anda! Bantu kami berkembang dengan membagikan saran dan masukan Anda.",
+    "link": "Hubungi Kami"
+  },
+
+  "community": {
+    "title": "Bergabunglah dengan Komunitas Kami",
+    "content": "Ribuan pengguna mempercayai TikGo untuk mengunduh video TikTok dengan cepat dan mudah. Bergabunglah dengan kami sekarang!"
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "description": "Jika Anda memiliki pertanyaan tentang layanan kami, ingin melaporkan masalah, atau tertarik untuk bekerja sama dalam periklanan, jangan ragu untuk menghubungi kami.",
+    "contact_info": "Anda dapat menghubungi kami melalui metode berikut:",
+    "telegram": "Telegram",
+    "email": "Email",
+    "form_instruction": "Atau kirimkan pesan langsung melalui formulir di bawah ini:",
+    "loading": "Memuat..."
+  }
+}

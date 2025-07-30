@@ -1,0 +1,26 @@
+{
+  "title": "Política de Privacidade",
+  "description": "Este documento descreve a abordagem do TikGo em relação à privacidade dos usuários. Leia atentamente e entre em contato se tiver dúvidas.",
+
+  "intro": "No TikGo, valorizamos a privacidade dos usuários e estamos comprometidos em oferecer uma experiência de navegação segura. Abaixo, detalhamos como gerenciamos informações pessoais e outros dados.",
+
+  "personal_info": {
+    "title": "Dados Pessoais e Privacidade",
+    "content": "O TikGo permite que os usuários acessem nossos serviços sem a necessidade de fornecer informações pessoais. Não coletamos nem armazenamos dados identificáveis, a menos que sejam fornecidos voluntariamente. Se detectarmos informações falsas ou enganosas, o TikGo se reserva o direito de restringir o acesso à plataforma."
+  },
+
+  "policy_changes": {
+    "title": "Atualizações da Política de Privacidade",
+    "content": "O TikGo pode atualizar esta política de privacidade conforme necessário para melhorar a transparência e a segurança. Caso ocorram alterações significativas, publicaremos um aviso em nossa página principal. Recomendamos que os usuários revisem esta página regularmente para se manterem informados sobre como protegemos sua privacidade."
+  },
+
+  "advertising": {
+    "title": "Publicidade e Cookies",
+    "content": "Para manter a plataforma, o TikGo exibe anúncios de terceiros. Esses anunciantes podem usar cookies para coletar dados de navegação não pessoais. No entanto, informações pessoais como nomes ou e-mails não são coletadas. Os usuários podem desativar os cookies nas configurações do navegador ou interromper o uso de nossos serviços a qualquer momento."
+  },
+
+  "acceptance": {
+    "title": "Aceitação dos Termos",
+    "content": "Ao utilizar o TikGo, você reconhece e aceita esta política de privacidade. Se não concordar com esses termos, pedimos que não utilize nossos serviços. O uso contínuo da plataforma após qualquer atualização desta política indica sua aceitação dos termos revisados."
+  }
+}

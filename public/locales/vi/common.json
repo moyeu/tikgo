@@ -1,0 +1,41 @@
+{
+  "clipboard_error": "Trình duyệt của bạn không hỗ trợ Clipboard hoặc quyền truy cập bị từ chối.",
+  "clipboard_empty": "Clipboard trống! Vui lòng sao chép lại liên kết.",
+  "clipboard_permission_denied": "Không thể dán từ clipboard! Vui lòng nhập liên kết thủ công.",
+  "paste_placeholder": "Dán URL TikTok hoặc Douyin vào đây...",
+  "paste_button": "Dán",
+  "download_button": "Tải xuống",
+  "page_not_found": "Không tìm thấy trang",
+  "oops_message": "Rất tiếc! Trang bạn đang tìm kiếm không tồn tại.",
+  "go_home": "Quay lại trang chủ",
+  "loading": "Đang xử lý...",
+  "how_to_download": "Click để xem video hướng dẫn sử dụng",
+  "video_found": "Đã tìm thấy video:",
+  "download_now": "Tải xuống ngay",
+  "download_another": "Tải video khác",
+  "no_download_options": "Không có tùy chọn tải xuống.",
+  "cancel_download": "Hủy tải xuống",
+  "footer": {
+    "tools": "Công cụ",
+    "company": "Công ty",
+    "follow_us": "Theo dõi chúng tôi",
+    "terms": "Điều khoản dịch vụ",
+    "privacy": "Chính sách quyền riêng tư",
+    "about": "Giới thiệu",
+    "contact": "Liên hệ",
+    "tiktok_video": "Trình tải video TikTok",
+    "tiktok_mp3": "Trình chuyển đổi TikTok sang MP3",
+    "tiktok_slide": "Trình tải ảnh TikTok",
+    "tiktok_story": "Trình tải story TikTok",
+    "copyright": "TikGo Downloader. Bảo lưu mọi quyền."
+  },
+  
+  "shareMessage": " người đã chia sẻ trong giờ qua!",
+  "popupTitle": "🚀 Chia sẻ để nhận tốc độ tải nhanh hơn!",
+  "popupDescription": "Chia sẻ trang web này để nhận được tốc độ tải nhanh hơn và tăng số lượt tải xuống!",
+  "shareButton": "Chia sẻ ngay",
+  "skipButton": "Bỏ qua",
+  "copyLink": "Sao chép liên kết",
+  "copySuccess": "Sao chép thành công"
+
+}

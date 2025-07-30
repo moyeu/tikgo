@@ -1,0 +1,284 @@
+/* ======== Global Styles ======== */
+:root {
+  --primary-color: #4a90e2;
+  --secondary-color: #357bd8;
+  --background-color: #f8f9fa;
+  --background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
+  --text-color: #333;
+  --border-radius: 8px;
+  --container-width: 900px; /* ✅ Định nghĩa chiều rộng tối đa */
+}
+
+/* ======== Reset & Base Styles ======== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  /*background: var(--background);*/
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* ✅ Căn giữa nội dung trang và giới hạn chiều rộng */
+.container {
+  max-width: var(--container-width);
+  background-color: white;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* ✅ Điều chỉnh trên mobile và tablet */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 100%;
+    padding: 20px;
+  }
+}
+
+/* ======== Button Styles ======== */
+button {
+  cursor: pointer;
+  border: none;
+  border-radius: var(--border-radius);
+  transition: background 0.3s ease-in-out;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* ======== Link Styles ======== */
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+/* ======== Wrapper & Container ======== */
+.containerWrapper {
+  max-width: var(--container-width);
+  margin: 0 auto 20px;
+  padding: 20px;
+  background-color: white;
+  text-align: center;
+}
+
+/* ======== Navigation Bar ======== */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto 20px;
+  border-radius: 6px;
+  /*background: rgba(255, 255, 255, 0.24);*/
+  background: #6c757d;
+  padding: 5px;
+  flex-wrap: nowrap; /* Không cho phép xuống dòng */
+  overflow-x: auto; /* Cho phép cuộn ngang */
+  -webkit-overflow-scrolling: touch; /* Cải thiện cuộn trên iOS */
+}
+
+/* ✅ Điều chỉnh navbar item */
+.navItem {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: ;
+  color: white;
+  transition: background 0.3s ease-in-out;
+}
+
+.navItem:hover {
+  background: rgba(255, 255, 255, 0.2);
+  font-weight: 400;
+}
+
+.navItem.active {
+  background: rgba(255, 255, 255, 0.3);
+  font-weight: bold;
+}
+
+/* Mobile: Cho phép cuộn ngang navbar */
+@media (max-width: 600px) {
+  .navbar {
+    white-space: nowrap;
+    justify-content: flex-start;
+  }
+}
+
+/* ======== Title & Description ======== */
+.textContainer {
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  /*color: #fff;*/
+  margin-bottom: 8px;
+}
+
+.description {
+  font-size: 16px;
+  /*color: #fff;*/
+  max-width: 600px;
+  margin: 0 auto 20px;
+}
+
+/* ======== Extra Content Container ======== */
+.extraContent {
+  /*background-color: #fff;
+  padding: 20px;
+  border-radius: var(--border-radius);
+  max-width: var(--container-width);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);*/
+  color: var(--text-color);
+  margin: 40px auto;
+}
+
+.extraContent p {
+  margin-bottom: 16px;
+}
+
+/* ======== Extra Long Content ======== */
+.extraLongContent {
+  margin-bottom: 40px;
+  line-height: 1.5;
+}
+
+.extraLongContent h2,
+.extraLongContent h3 {
+  color: var(--primary-color);
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.extraLongContent h4 {
+  font-size: 16px;
+  margin-top: 18px;
+  margin-bottom: 10px;
+}
+
+
+
+.extraLongContent ul, 
+.extraLongContent ol {
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+
+[dir="rtl"] .extraLongContent ul,
+[dir="rtl"] .extraLongContent ol {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+
+.extraLongContent li {
+  margin-bottom: 8px;
+}
+
+.extraContent blockquote {
+  font-style: italic;
+  background: #f1f1f1;
+  padding: 15px;
+  border-left: 5px solid var(--primary-color);
+  margin: 20px 0;
+}
+
+/* ======== FAQ Accordion Styles ======== */
+.faqAccordion {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.faqAccordion h4 {
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+  padding-bottom: 10px;
+}
+
+.faqItem {
+  border: 1px solid #ddd;
+  border-radius: var(--border-radius);
+  margin-bottom: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  background-color: #f9f9f9;
+}
+
+.faqQuestion {
+  width: 100%;
+  padding: 15px;
+  background-color: #eee;
+  border: none;
+  text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.3s ease;
+}
+
+.faqQuestion:hover {
+  background-color: #ddd;
+}
+
+.faqIcon {
+  font-size: 1.5em;
+  margin-left: 10px;
+}
+
+.faqAnswer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+  padding: 0 15px;
+}
+
+.faqAnswer.open {
+  padding: 15px;
+  max-height: 500px; /* Giá trị này có thể điều chỉnh nếu nội dung quá dài */
+}
+
+.faqAnswer p {
+  margin: 0;
+  /*font-size: 1em;*/
+  line-height: 1.6;
+}
+
+.faqAnswer ol,
+.faqAnswer ul {
+  padding-left: 20px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+[dir="rtl"] .faqAnswer ol,
+[dir="rtl"] .faqAnswer ul {
+  padding-left: 0px;
+  padding-right: 20px;
+}

@@ -1,0 +1,55 @@
+{
+  "title": "O TikGo",
+  "description": "TikGo vám pomáhá stahovat videa z TikToku bez vodoznaků, rychle a zdarma.",
+  "intro": "TikGo bylo spuštěno v roce 2024, aby usnadnilo stahování videí z TikToku. Není potřeba žádný software—stačí použít prohlížeč a okamžitě si videa uložit.",
+
+  "mission": {
+    "title": "Naše mise",
+    "content": "Naším cílem je poskytovat rychlý, snadný a spolehlivý způsob stahování videí a fotografií z TikToku bez vodoznaků."
+  },
+
+  "services": {
+    "title": "Naše služby",
+    "video_downloader": "Stahování videí z TikToku bez vodoznaků.",
+    "slideshow_downloader": "Ukládání fotografií a videí z TikTok slideshow.",
+    "story_downloader": "Stahování příběhů z TikToku ve formátu MP4.",
+    "tiktok_to_mp3": "Převod videí z TikToku na zvuk ve formátu MP3."
+  },
+
+  "advantages": {
+    "title": "Proč si vybrat TikGo?",
+    "no_watermark": "Čistá videa: Bez vodoznaků a log.",
+    "free": "Zcela zdarma: Žádné skryté poplatky.",
+    "cross_platform": "Funguje všude: Používejte na mobilu, tabletu nebo PC.",
+    "high_quality": "Vysoká kvalita: Nejlepší dostupné rozlišení videa.",
+    "easy_to_use": "Snadné použití: Není nutná registrace ani stahování aplikací.",
+    "multilingual": "Podpora více jazyků."
+  },
+
+  "values": {
+    "title": "Naše hodnoty",
+    "community": "Zaměřeno na uživatele: Nasloucháme a zlepšujeme se.",
+    "trustworthy": "Soukromí na prvním místě: Nestahujeme ani neukládáme žádná data.",
+    "easy_to_use": "Navrženo tak, aby to bylo jednoduché pro každého."
+  },
+
+  "feedback": {
+    "title": "Váš názor je důležitý",
+    "content": "Rádi si vyslechneme vaši zpětnou vazbu! Pomozte nám zlepšit naše služby sdílením svých zkušeností.",
+    "link": "Kontaktujte nás"
+  },
+
+  "community": {
+    "title": "Připojte se k naší komunitě",
+    "content": "Tisíce uživatelů důvěřují TikGo pro rychlé a snadné stahování videí z TikToku. Přidejte se k nám!"
+  },
+  "contact": {
+    "title": "Kontaktujte nás",
+    "description": "Máte-li jakékoli dotazy ohledně našich služeb, chcete nahlásit problém nebo spolupracovat na reklamě, neváhejte nás kontaktovat.",
+    "contact_info": "Můžete nás kontaktovat následujícími způsoby:",
+    "telegram": "Telegram",
+    "email": "E-mail",
+    "form_instruction": "Nebo nám pošlete zprávu přímo prostřednictvím formuláře níže:",
+    "loading": "Načítání..."
+  }
+}
