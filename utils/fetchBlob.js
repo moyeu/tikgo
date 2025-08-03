@@ -12,7 +12,8 @@ export function fetchAndDownload(
 
     async function streamAndSave() {
         try {
-            const response = await fetch(url, { mode: 'cors', signal });
+            //const response = await fetch(url, { mode: 'cors', signal });
+            const response = await fetch(url, { mode: 'cors', signal, redirect: 'follow' });
             if (!response.ok) throw new Error('Network response was not ok');
 
             const contentLength = response.headers.get('Content-Length');
