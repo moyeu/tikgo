@@ -1,33 +1,41 @@
 import { fallbackDownload } from './proxyFallback';
 
-let downloadWorker = null;
+export function fetchAndDownload(
+    url,
+    fileName = 'video.mp4',
+    _fileSize,
+    setProgress,
+    userRegion
+) {
+    const controller = new AbortController();
+    const { signal } = controller;
 
-export function fetchAndDownload(url, fileName = "video.mp4", fileSize, setProgress, userRegion) {
-    if (downloadWorker) {
-        //console.warn("⚠️ Một quá trình tải xuống đang chạy!");
-        return;
-    }
+    async function streamAndSave() {
+        try {
+            const response = await fetch(url, { mode: 'cors', signal });
+            if (!response.ok) throw new Error('Network response was not ok');
 
-    //console.log("🚀 Bắt đầu tải xuống:", url);
+            const contentLength = response.headers.get('Content-Length');
+            const total = contentLength ? parseInt(contentLength, 10) : 0;
+            const reader = response.body?.getReader();
+            if (!reader) throw new Error('ReadableStream not supported');
 
-    // Khởi tạo Web Worker từ file worker.js
-    downloadWorker = new Worker(new URL('../workers/worker.js', import.meta.url));
+            const chunks = [];
+            let received = 0;
 
-    // Gửi URL tải xuống và kích thước file cho Worker
-    downloadWorker.postMessage({ url, fileSize });
-
-    downloadWorker.onmessage = (event) => {
-        if (event.data.progress) {
-            if (setProgress && typeof setProgress === "function") {
-                setProgress(event.data.progress); // ✅ Cập nhật tiến trình tải xuống
+            while (true) {
+                const { done, value } = await reader.read();
+                if (done) break;
+                chunks.push(value);
+                received += value.length;
+                if (total && setProgress && typeof setProgress === 'function') {
+                    setProgress(Math.floor((received / total) * 100));
+                }
             }
-            //console.log(`📥 Tiến trình: ${event.data.progress}%`);
-        } else if (event.data.complete) {
-            //console.log("✅ Tải xuống hoàn tất!");
 
-            // Tạo URL từ Blob và kích hoạt tải xuống
-            const blobUrl = URL.createObjectURL(event.data.blob);
-            const a = document.createElement("a");
+            const blob = new Blob(chunks);
+            const blobUrl = URL.createObjectURL(blob);
+            const a = document.createElement('a');
             a.href = blobUrl;
             a.download = fileName;
             document.body.appendChild(a);
@@ -35,31 +43,18 @@ export function fetchAndDownload(url, fileName = "video.mp4", fileSize, setProgr
             document.body.removeChild(a);
             URL.revokeObjectURL(blobUrl);
 
-            if (setProgress && typeof setProgress === "function") {
-                setProgress(100); // ✅ Hoàn tất tiến trình
+            if (setProgress && typeof setProgress === 'function') {
+                setProgress(100);
             }
-
-            downloadWorker.terminate();
-            downloadWorker = null;
-        } else if (event.data.error) {
-            //console.error("❌ Lỗi tải xuống:", event.data.error);
-            if (setProgress && typeof setProgress === "function") {
+        } catch (error) {
+            if (setProgress && typeof setProgress === 'function') {
                 setProgress(0);
             }
-            downloadWorker.terminate();
-            downloadWorker = null;
-
-            // Nếu có lỗi (ví dụ CORS hoặc lỗi mạng), fallback tải qua Server Proxy
-            //console.warn("⚠️ Chuyển sang tải qua Proxy...");
-            fallbackDownload(url, fileName, fileSize, setProgress, userRegion);
+            fallbackDownload(url, fileName, _fileSize, setProgress, userRegion);
         }
-    };
+    }
 
-    return () => {
-        if (downloadWorker) {
-            downloadWorker.terminate();
-            downloadWorker = null;
-            //console.log("⛔ Quá trình tải xuống đã bị hủy.");
-        }
-    };
+    streamAndSave();
+
+    return () => controller.abort();
 }
