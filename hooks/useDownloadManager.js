@@ -19,7 +19,7 @@ export default function useDownloadManager(userRegion, userIP) {
 
     // Không có IP / region → báo lỗi
     if (!userRegion || !userIP) {
-      alert('⚠️ Không thể xác định vị trí của bạn. Vui lòng thử lại!');
+      //alert('⚠️ Không thể xác định vị trí của bạn. Vui lòng thử lại!');
       return;
     }
 
@@ -34,7 +34,7 @@ export default function useDownloadManager(userRegion, userIP) {
     const redirectUrl = `/api/down?media=${encoded}&bandwidth_saving=1`;
 
     try {
-      const cancel = fetchAndDownload(
+      const abort = fetchAndDownload(
         redirectUrl,
         fileName,
         size,
@@ -44,7 +44,15 @@ export default function useDownloadManager(userRegion, userIP) {
         () => fallbackDownload(videoUrl, fileName, size, format, setProgress, userRegion, userIP)
       );
 
-      if (cancel) setCancelDownload(() => cancel);
+      if (abort) {
+        // Bọc hàm huỷ để reset UI rồi xoá chính nó
+        const wrappedCancel = () => {
+          abort();                 // dừng fetch
+          setProgress(0);          // ẩn progress bar
+          setCancelDownload(null); // xoá reference
+        };
+        setCancelDownload(() => wrappedCancel);
+      }
     } catch (err) {
       // Bất kỳ lỗi nào khác → dùng proxy
       fallbackDownload(videoUrl, fileName, size, format, setProgress, userRegion, userIP);
