@@ -20,7 +20,7 @@ export function validateUrl(inputText) {
         
         // Chỉ áp dụng logic chặn cho TikTok
         if (isTikTok) {
-            const invalidPaths = ["/tag/", "/music/", "/live", "/search", "/explore", "/foryou", "/trending"];
+            const invalidPaths = ["/tag/", "/live", "/search", "/explore", "/foryou", "/trending"];
             
             if (parsedUrl.pathname.startsWith("/@")) {
                 const pathSegments = parsedUrl.pathname.split("/");
