@@ -17,40 +17,40 @@ export default function VideoResult({
     const { t } = useTranslation();
     const router = useRouter();
 
-    /* ------------------------------------------------------------ */
-    /* 🟢  Local state                                               */
-    /* ------------------------------------------------------------ */
+    // Hiển thị popup chia sẻ
     const [showSharePopup, setShowSharePopup] = useState(false);
+    // Đánh dấu tải xong video
     const [downloadCompleted, setDownloadCompleted] = useState(false);
+    // Khóa nút khi đang tải video
     const [isDownloading, setIsDownloading] = useState(false);
 
-    /* ------------------------------------------------------------ */
-    /* 🔄  Progress / Download flags                                 */
-    /* ------------------------------------------------------------ */
+    // Nếu progress giữa 1 và 99 => đang tải video
     useEffect(() => {
-        setIsDownloading(progress > 0 && progress < 100);
+        if (progress > 0 && progress < 100) {
+            setIsDownloading(true);
+        } else {
+            setIsDownloading(false);
+        }
     }, [progress]);
 
+    // Khi progress đạt 100% thì đánh dấu tải xong
     useEffect(() => {
-        if (progress === 100) setDownloadCompleted(true);
+        if (progress === 100) {
+            setDownloadCompleted(true);
+        }
     }, [progress]);
 
+    // Hiển thị popup sau khi tải xong và chưa từng chia sẻ
     useEffect(() => {
         if (downloadCompleted && !getCookie('shared')) {
             setTimeout(() => setShowSharePopup(true), 1000);
         }
     }, [downloadCompleted]);
 
-    /* ------------------------------------------------------------ */
-    /* ⛔  No media guard                                            */
-    /* ------------------------------------------------------------ */
     if (!videoData || !videoData.medias || videoData.medias.length === 0) {
         return <p className={styles.error}>{t('no_media_found')}</p>;
     }
 
-    /* ------------------------------------------------------------ */
-    /* 🛠  Helpers                                                   */
-    /* ------------------------------------------------------------ */
     const handleDownloadAnother = () => {
         if (router.pathname === `/${router.locale}` || router.pathname === '/') {
             window.location.reload();
@@ -59,7 +59,7 @@ export default function VideoResult({
         }
     };
 
-    // Helpers for image download remain unchanged
+    // Tải ảnh (từng ảnh một)
     const downloadImage = async (imageUrl, index) => {
         try {
             const response = await fetch(imageUrl, { mode: 'cors', cache: 'no-cache' });
@@ -74,6 +74,7 @@ export default function VideoResult({
             document.body.appendChild(link);
             link.click();
 
+            // Xóa URL blob sau khi tải xong
             document.body.removeChild(link);
             window.URL.revokeObjectURL(blobUrl);
         } catch (error) {
@@ -81,24 +82,21 @@ export default function VideoResult({
         }
     };
 
+    // Tải tất cả ảnh tuần tự với delay ngẫu nhiên
     const downloadAllImages = async () => {
-        const imageList = videoData.medias.filter(m => m.type === 'image');
+        const imageList = videoData.medias.filter(media => media.type === 'image');
+
         for (let i = 0; i < imageList.length; i++) {
             await downloadImage(imageList[i].url, i);
+
+            // Delay ngẫu nhiên 0.5s - 1.5s
             const delay = Math.random() * (1500 - 500) + 500;
-            await new Promise(res => setTimeout(res, delay));
+            await new Promise(resolve => setTimeout(resolve, delay));
         }
     };
 
-    /* ------------------------------------------------------------ */
-    /* 🧮  Derive media categories                                   */
-    /* ------------------------------------------------------------ */
-    const hasVideoOrAudio = videoData.medias.some(m => m.type === 'video' || m.type === 'audio');
-    const hasImagesOnly  = !hasVideoOrAudio && videoData.medias.some(m => m.type === 'image');
-
     return (
         <div className={styles.resultContainer}>
-            {/* --------- Info / Thumbnail ------------------------ */}
             <div className={styles.videoInfo}>
                 {videoData.metadata?.thumbnail && (
                     <img
@@ -121,19 +119,19 @@ export default function VideoResult({
                 )}
 
                 {/* Nút tải xuống tất cả ảnh */}
-                {videoData.medias.some(m => m.type === 'image') && (
+                {videoData.medias.some(media => media.type === 'image') && (
                     <div className={styles.downloadAllWrapper}>
-                        <button
+                        <button 
                             className={styles.downloadAllButton}
                             onClick={downloadAllImages}
-                            disabled={isDownloading}
+                            disabled={isDownloading} 
                         >
                             {t('download_all_images')}
                         </button>
                     </div>
                 )}
 
-                {/* Progress bar + Cancel */}
+                {/* Thanh tiến trình + nút hủy */}
                 {progress > 0 && progress < 100 && (
                     <>
                         <div className={styles.progressBarContainer}>
@@ -161,11 +159,11 @@ export default function VideoResult({
                 )}
             </div>
 
-            {/* --------- Download buttons ------------------------ */}
-            {hasVideoOrAudio && (
+            {/* Nếu có video/audio */}
+            {videoData.medias.some(media => media.type === 'video') ? (
                 <div className={styles.downloadOptions}>
                     {videoData.medias
-                        .filter(m => m.type === 'video' || m.type === 'audio')
+                        .filter(media => media.type === 'video' || media.type === 'audio')
                         .map((media, index) => (
                             <button
                                 key={index}
@@ -178,9 +176,7 @@ export default function VideoResult({
                                 disabled={isDownloading}
                             >
                                 <strong>
-                                    {media.type === 'audio'
-                                        ? 'MP3'
-                                        : media.resolution?.toUpperCase() || ''}
+                                    {media.resolution?.toUpperCase() || 'MP3'}
                                 </strong>{' '}
                                 {media.format.toUpperCase()} (
                                 {media.size && media.size > 0
@@ -190,13 +186,10 @@ export default function VideoResult({
                             </button>
                         ))}
                 </div>
-            )}
-
-            {/* --------- Image grid (slide) ---------------------- */}
-            {hasImagesOnly && (
+            ) : (
                 <div className={styles.imageGrid}>
                     {videoData.medias
-                        .filter(m => m.type === 'image')
+                        .filter(media => media.type === 'image')
                         .map((media, index) => (
                             <div key={index} className={styles.imageItem}>
                                 <img
@@ -219,14 +212,16 @@ export default function VideoResult({
                 </div>
             )}
 
-            {/* --------- Download another ------------------------ */}
             <div className={styles.downloadAnotherWrapper}>
-                <button className={styles.downloadAnother} onClick={handleDownloadAnother}>
+                <button 
+                    className={styles.downloadAnother} 
+                    onClick={handleDownloadAnother}
+                >
                     {t('download_another')}
                 </button>
             </div>
-
-            {showSharePopup && <SharePopup onClose={() => setShowSharePopup(false)} />}
+            
+            {showSharePopup && <SharePopup onClose={() => setShowSharePopup(false)} />} 
         </div>
     );
 }

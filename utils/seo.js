@@ -9,11 +9,15 @@ const LOCALE_MAPPING = {
   pt: "pt",
   fr: "fr",
   it: "it",
-  cz: "cz",
+  //cz: "cz",
+  cs: "cs_CZ",
   tr: "tr",
   ja: "ja",
   th: "th",
   "zh-TW": "zh"
+  //"zh-TW": "zh"
+  //"zh-Hant": "zh_TW"
+  //"zh-Hant": "zh-Hant"
 };
 
 const SUPPORTED_LOCALES = Object.keys(LOCALE_MAPPING);

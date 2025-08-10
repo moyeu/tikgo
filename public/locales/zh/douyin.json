@@ -1,0 +1,47 @@
+{
+
+  "nav_video": "Video",
+  "nav_mp3": "MP3",
+  "nav_slide": "Slide",
+  "nav_story": "Story",
+  
+  "service_name": "下載抖音影片",
+  "service_type": "線上視頻下載服務",
+  "service_output": "MP4視頻文件",
+  
+  "meta_title": "下載抖音影片無浮水印，支援 Full HD - 4K 高畫質",
+  "meta_description": "TikGo.me — 免費的抖音影片下載網站，支援 無浮水印、HD ～ 4K 高畫質，可在所有主流瀏覽器上使用，並相容於 iPhone、Android、PC、MacOS 等裝置。",
+  "meta_keywords": "下載抖音影片, 下載無浮水印抖音影片, 抖音影片下載器",
+
+  "title": "下載中國大陸抖音影片",
+  "description": "下載來自中國大陸抖音（Douyin）的影片，無浮水印與 Logo",
+
+  "extra_long_content": "## 使用 TikGo.me 免費下載中國大陸抖音影片\n\n想要輕鬆快速地**下載中國大陸抖音影片**嗎？TikGo.me 是一個強大又簡單好用的線上工具，讓你無需安裝 App，就能直接在瀏覽器中下載高畫質 Douyin 影片，不含浮水印。支援所有裝置，包括 iPhone、Android、Windows 和 MacOS，方便又高效。\n\n### 如何無浮水印下載抖音影片\n\n只需三個簡單步驟即可完成：\n\n#### 1. **複製抖音影片連結**\n- 打開 Douyin 應用程式或網站，找到你想要下載的影片。\n- 點選「分享」圖示，選擇「複製連結」。\n\n#### 2. **貼上連結到 TikGo.me**\n- 在瀏覽器中前往 [TikGo.me/zh/douyin](https://tikgo.me/zh/douyin)。\n- 將剛才複製的連結貼到輸入框中，然後點擊 **「下載」** 按鈕。\n\n#### 3. **儲存影片到你的裝置**\n- TikGo 會自動移除影片上的浮水印與標誌。\n- 可選擇 MP4 格式影片下載，或僅下載音訊為 MP3 格式。\n\n使用 TikGo，您可以快速**下載中國大陸抖音影片**，無浮水印、無限制，完全免費！",
+  
+  "extra_faq_title": "常見問題（FAQ）",
+  "extra_faq": [
+    {
+      "faq_question": "TikGo 是免費的嗎？",
+      "faq_answer": "是的，TikGo 完全免費使用。無需註冊帳號或付費即可下載影片。"
+    },
+    {
+      "faq_question": "下載的影片會儲存在哪裡？",
+      "faq_answer": "- **Android 裝置**：影片通常會儲存在「下載」資料夾中。\n- **iPhone**：可在「檔案」App 或「相片」中找到影片。\n- **電腦**：影片會儲存在瀏覽器預設的「下載」資料夾。"
+    },
+    {
+      "faq_question": "有下載次數或速度限制嗎？",
+      "faq_answer": "完全沒有限制！你可以不限次數地下載任意數量影片，下載速度取決於你的網路連線。"
+    },
+    {
+      "faq_question": "需要安裝額外的軟體或擴充功能嗎？",
+      "faq_answer": "不需要。TikGo 完全線上操作，無需安裝任何應用程式或外掛。"
+    },
+    {
+      "faq_question": "從 Douyin 下載影片是否合法？",
+      "faq_answer": "只要是個人使用，通常不會有問題。但若用於商業用途，請務必獲得原創者授權，否則可能涉及版權問題。"
+    }
+  ],
+  
+  "sum_content": "TikGo.me 是最佳選擇，讓你免費下載中國大陸抖音影片，無浮水印、無限制，立即體驗高效下載！"
+}
+

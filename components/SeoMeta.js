@@ -25,14 +25,14 @@ export default function SeoMeta({ pageKey }) {
     // ✅ Tính toán SEO metadata
     const meta = useMemo(() => getMetaTags(pageKey, baseUrl, locale, t), [pageKey, baseUrl, locale]);
     const structuredData = useMemo(() => getStructuredData(pageKey, baseUrl, locale, t), [pageKey, baseUrl, locale]);
-    const faqSchema = useMemo(() => ['video', 'mp3', 'slide', 'story'].includes(pageKey) ? getFAQSchema(pageKey, t) : null, [pageKey, t]);
+    const faqSchema = useMemo(() => ['video', 'mp3', 'slide', 'story', 'douyin'].includes(pageKey) ? getFAQSchema(pageKey, t) : null, [pageKey, t]);
     const seoLinks = useMemo(() => getSeoLinks(baseUrl, locale, asPath, locales), [baseUrl, locale, asPath, locales]);
     const canonical = seoLinks.canonical;
     const hreflangs = useMemo(() => seoLinks.hreflangs, [seoLinks]);
 
     // ✅ Kiểm tra loại trang hiện tại
     const isHomePage = pageKey === 'video'; // Trang chủ tải video
-    const isServicePage = ['mp3', 'slide', 'story'].includes(pageKey); // Trang tải nội dung
+    const isServicePage = ['mp3', 'slide', 'story', 'douyin'].includes(pageKey); // Trang tải nội dung
     const isAboutPage = pageKey === 'about'; // Trang About
     const isPolicyPage = ['privacy-policy', 'contact', 'terms'].includes(pageKey); // Trang chính sách, liên hệ
 

@@ -10,7 +10,8 @@ const nextConfig = withBundleAnalyzer({
   trailingSlash: false, // ✅ Giữ URL gọn gàng, không có dấu '/'
 
   i18n: {
-    locales: ['en', 'vi', 'id', 'ar', 'de', 'es', 'pt', 'fr', 'it', 'cz', 'tr', 'ja', 'th', 'zh'],
+    locales: ['en', 'vi', 'id', 'ar', 'de', 'es', 'pt', 'fr', 'it', 'cs', 'tr', 'ja', 'th', 'zh'],
+    //locales: ['en', 'vi', 'id', 'ar', 'de', 'es', 'pt', 'fr', 'it', 'cz', 'tr', 'ja', 'th', 'zh'],
     defaultLocale: 'en', // ✅ Ngôn ngữ mặc định là tiếng Anh
     localeDetection: false, // ✅ Tắt tự động nhận diện ngôn ngữ trình duyệt
   },

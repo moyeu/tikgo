@@ -1,48 +1,37 @@
 import { fallbackDownload } from './proxyFallback';
 
-export function fetchAndDownload(
-  url,
-  fileName = 'video.mp4',
-  _fileSize,
-  setProgress,
-  userRegion
-) {
-  const controller = new AbortController();
-  const { signal } = controller;
+let downloadWorker = null;
 
-  async function streamAndSave() {
-    try {
-      // 👉 Ẩn Referer để tránh Douyin 403
-      const response = await fetch(url, {
-        mode: 'cors',
-        signal,
-        redirect: 'follow',
-        referrerPolicy: 'no-referrer'
-      });
+export function fetchAndDownload(url, fileName = "video.mp4", fileSize, setProgress, userRegion) {
+  if (downloadWorker) {
+    // Đang tải, bỏ qua để tránh trùng
+    return;
+  }
 
-      if (!response.ok) throw new Error('Network response was not ok');
+  downloadWorker = new Worker(new URL('../workers/worker.js', import.meta.url));
 
-      const contentLength = response.headers.get('Content-Length');
-      const total = contentLength ? parseInt(contentLength, 10) : 0;
-      const reader = response.body?.getReader();
-      if (!reader) throw new Error('ReadableStream not supported');
+  // Gửi lệnh bắt đầu (tương thích: worker cũng chấp nhận message không type)
+  downloadWorker.postMessage({ type: 'start', url, fileSize });
 
-      const chunks = [];
-      let received = 0;
+  downloadWorker.onmessage = (event) => {
+    const data = event.data || {};
 
-      while (true) {
-        const { done, value } = await reader.read();
-        if (done) break;
-        chunks.push(value);
-        received += value.length;
-        if (total && setProgress) {
-          setProgress(Math.floor((received / total) * 100));
-        }
-      }
+    if (data.progress) {
+      if (setProgress) setProgress(data.progress);
+      return;
+    }
 
-      const blob = new Blob(chunks);
-      const blobUrl = URL.createObjectURL(blob);
-      const a = document.createElement('a');
+    if (data.canceled) {
+      // Người dùng đã hủy: reset UI, dọn dẹp, KHÔNG fallback
+      if (setProgress) setProgress(0);
+      try { downloadWorker.terminate(); } catch (_) {}
+      downloadWorker = null;
+      return;
+    }
+
+    if (data.complete) {
+      const blobUrl = URL.createObjectURL(data.blob);
+      const a = document.createElement("a");
       a.href = blobUrl;
       a.download = fileName;
       document.body.appendChild(a);
@@ -51,18 +40,39 @@ export function fetchAndDownload(
       URL.revokeObjectURL(blobUrl);
 
       if (setProgress) setProgress(100);
-    } catch (error) {
-      // ⛔️ Người dùng bấm “Cancel” → AbortError → KHÔNG fallback
-      const isUserAbort = error?.name === 'AbortError' || signal.aborted;
-      if (setProgress) setProgress(0);
-      if (isUserAbort) return;
 
-      // ⤵️ CDN thật sự lỗi → bật proxy
-      fallbackDownload(url, fileName, _fileSize, setProgress, userRegion);
+      try { downloadWorker.terminate(); } catch (_) {}
+      downloadWorker = null;
+      return;
     }
-  }
 
-  streamAndSave();
-  // Hàm hủy để component gọi khi user nhấn Cancel
-  return () => controller.abort();
+    if (data.error) {
+      // Lỗi thật sự → fallback proxy
+      if (setProgress) setProgress(0);
+      try { downloadWorker.terminate(); } catch (_) {}
+      downloadWorker = null;
+      fallbackDownload(url, fileName, fileSize, setProgress, userRegion);
+    }
+  };
+
+  // Trả hàm hủy: gửi message 'cancel' (không terminate ngay)
+  return () => {
+    if (!downloadWorker) return;
+    try {
+      downloadWorker.postMessage({ type: 'cancel' });
+      // Phòng trường hợp worker không phản hồi, kill sau 1.5s
+      setTimeout(() => {
+        if (downloadWorker) {
+          try { downloadWorker.terminate(); } catch (_) {}
+          downloadWorker = null;
+          if (setProgress) setProgress(0);
+        }
+      }, 1500);
+    } catch (_) {
+      // Nếu không gửi được, terminate cứng
+      try { downloadWorker.terminate(); } catch (__) {}
+      downloadWorker = null;
+      if (setProgress) setProgress(0);
+    }
+  };
 }

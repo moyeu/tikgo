@@ -1,14 +1,58 @@
+// utils/proxyFallback.js
 import AES from "crypto-js/aes";
 import SHA256 from "crypto-js/sha256";
 import HmacSHA256 from "crypto-js/hmac-sha256";
-import { enc, mode, pad, lib } from "crypto-js";
+import { enc, mode as cipherMode, pad, lib } from "crypto-js";
 import { getProxyServer } from "./proxyService";
 
 const SECRET_KEY = "d7964ab28a06bd7cf825930bbOYt7aAD";
 
-// 🔹 Chuyển đổi SECRET_KEY sang SHA-256 để khớp với PHP
+// Chuyển SECRET_KEY sang SHA-256 để khớp phía server
 const KEY_HASH = enc.Hex.parse(SHA256(SECRET_KEY).toString());
 
+// (Giữ lại nếu sau này bạn muốn dùng iframe)
+function ensureDownloadIframe(name = "tikgo_dl_iframe") {
+  let iframe = document.querySelector(`iframe[name="${name}"]`);
+  if (!iframe) {
+    iframe = document.createElement("iframe");
+    iframe.name = name;
+    iframe.id = name;
+    iframe.style.display = "none";
+    iframe.width = 0;
+    iframe.height = 0;
+    iframe.setAttribute("aria-hidden", "true");
+    document.body.appendChild(iframe);
+  }
+  return name;
+}
+
+// ✅ Tự quyết định target: ưu tiên options.target, sau đó localStorage, mặc định là 'self'
+function resolveTarget(options) {
+  // 1) Caller override (giữ tương thích cũ)
+  if (options && options.target) return String(options.target).toLowerCase();
+
+  // 2) Cho phép cấu hình runtime (không bắt buộc)
+  try {
+    const v = localStorage.getItem("tikgo_fallback_target");
+    if (v && /^(iframe|newtab|self)$/i.test(v)) return v.toLowerCase();
+  } catch (_) {}
+
+  // 3) Mặc định: luôn 'self' (ép điều hướng trong tab hiện tại)
+  return "self";
+}
+
+/**
+ * Fallback qua proxy server (POST form)
+ *
+ * @param {string} url
+ * @param {string} fileName
+ * @param {number} fileSize
+ * @param {string} fileExtension
+ * @param {function} setProgress
+ * @param {string} userRegion
+ * @param {string} userIP
+ * @param {object} [options] // tùy chọn, vẫn hỗ trợ để tương thích
+ */
 export function fallbackDownload(
   url,
   fileName,
@@ -16,28 +60,20 @@ export function fallbackDownload(
   fileExtension,
   setProgress,
   userRegion,
-  userIP
+  userIP,
+  options
 ) {
-  //console.log("🔍 Debug: `userRegion` nhận trong proxyFallback.js:", userRegion);
-  //console.log("🔍 Debug: `userIP` nhận trong proxyFallback.js:", userIP);
-
   if (!userRegion || userRegion === "Unknown" || userRegion === undefined) {
-    //console.warn("⚠️ Không thể xác định khu vực, sử dụng Proxy Châu Âu mặc định.");
     userRegion = "DE";
   }
 
   const proxyServer = getProxyServer(userRegion);
-  //console.log("🔍 Debug: `proxyServer` nhận trong getProxyServer:", proxyServer);
-
   if (!proxyServer || proxyServer.includes("example.com")) {
-    //alert("⚠️ Lỗi hệ thống: Không tìm thấy máy chủ proxy phù hợp. Vui lòng thử lại sau!");
-    if (typeof setProgress === "function") {
-      setProgress(0);
-    }
+    if (typeof setProgress === "function") setProgress(0);
     return;
   }
 
-  // 🔹 Chuẩn bị payload JSON
+  // Payload gửi proxy
   const payload = {
     url,
     fileName,
@@ -47,48 +83,54 @@ export function fallbackDownload(
     timestamp: Date.now(),
   };
 
-  //console.log("📡 Payload trước khi mã hóa:", payload);
-
-  // 🔹 Tạo IV ngẫu nhiên (16 byte)
+  // IV ngẫu nhiên (16 byte)
   const iv = lib.WordArray.random(16);
 
-  // 🔹 Mã hóa AES-256-CBC với IV (KHÔNG gộp IV vào CipherText)
+  // Mã hóa AES-256-CBC (key = SHA256(secret)), IV tách riêng
   const encrypted = AES.encrypt(JSON.stringify(payload), KEY_HASH, {
-    iv: iv,
-    mode: mode.CBC,
+    iv,
+    mode: cipherMode.CBC,
     padding: pad.Pkcs7,
   });
 
-  // 🔹 Tạo JSON chứa { iv, data, timestamp }
+  // Gói {iv, data, timestamp} rồi Base64
   const jsonPayload = JSON.stringify({
     iv: enc.Base64.stringify(iv),
     data: encrypted.toString(),
     timestamp: payload.timestamp,
   });
-
-  // 🔹 Mã hóa JSON thành Base64
   const encryptedData = enc.Base64.stringify(enc.Utf8.parse(jsonPayload));
 
-  // 🔹 Tạo chữ ký HMAC-SHA256 để xác thực request
-  const signature = HmacSHA256(encryptedData + payload.timestamp, SECRET_KEY).toString(enc.Hex);
+  // Ký HMAC-SHA256
+  const signature = HmacSHA256(
+    encryptedData + payload.timestamp,
+    SECRET_KEY
+  ).toString(enc.Hex);
 
-  // 🔹 Lưu encryptedData vào LocalStorage để lấy cho test.php
-  localStorage.setItem("debug_encryptedData", encryptedData);
+  // Debug tùy chọn
+  try { localStorage.setItem("debug_encryptedData", encryptedData); } catch (_) {}
 
-  // 🔹 Hiển thị log chi tiết để copy
-  //console.log("✅ Lưu encryptedData vào localStorage: debug_encryptedData");
-  //console.log("📌 Copy giá trị này để nhập vào `test.php`:");
-  //console.log("🔑 Encrypted Data:", encryptedData);
-  //console.log("🔏 Signature:", signature);
-  //console.log("📡 Timestamp:", payload.timestamp);
-
-  // 🔹 Gửi dữ liệu lên Proxy Server bằng Form POST
+  // URL nhận tải
   const finalUrl = `${proxyServer}/download`;
 
+  // --- Quyết định target submit ---
+  const targetMode = resolveTarget(options); // 'self' mặc định
+  let targetName = "_self";
+
+  if (targetMode === "iframe") {
+    targetName = ensureDownloadIframe(options?.iframeName || "tikgo_dl_iframe");
+  } else if (targetMode === "newtab") {
+    targetName = options?.preOpenedName || "_blank";
+  } else {
+    // 'self'
+    targetName = "_self";
+  }
+
+  // Submit form POST
   const form = document.createElement("form");
   form.method = "POST";
   form.action = finalUrl;
-  form.target = "_blank";
+  form.target = targetName;
 
   const inputEncryptedData = document.createElement("input");
   inputEncryptedData.type = "hidden";

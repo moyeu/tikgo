@@ -1,0 +1,47 @@
+{
+
+  "nav_video": "Video",
+  "nav_mp3": "MP3",
+  "nav_slide": "Slide",
+  "nav_story": "Story",
+  
+  "service_name": "Douyinダウンローダー",
+  "service_type": "オンライン動画ダウンロードサービス",
+  "service_output": "MP4動画ファイル",
+
+  "meta_title": "ウォーターマークなしでDouyin動画を無料ダウンロード、フルHD・4K高画質対応",
+  "meta_description": "TikGo.me は、Douyin動画をウォーターマーク（透かし）なしで無料ダウンロードできるウェブサイトです。HD～4Kの高画質に対応し、iPhone、Android、PC、MacOS を含むすべての主要なブラウザで利用可能です。",
+  "meta_keywords": "Douyin動画をダウンロード, Douyinダウンローダー, Douyin動画ダウンローダー",
+
+  "title": "Douyin動画をダウンロード",
+  "description": "Douyin（中国版TikTok）からロゴやウォーターマークのない動画をダウンロードできます。",
+
+  "extra_long_content": "## TikGo.meでDouyin動画を無料ダウンロード\n\n高画質で**Douyin動画をダウンロード**したいですか？TikGo.meは、シンプルで高速なオンラインツールとして、Douyin（中国版TikTok）の動画をフィルターなしで保存することができます。追加のアプリは不要で、iPhone、Android、Windows、MacOSなど、すべてのデバイスで動作します。\n\n### Douyin動画をウォーターマークなしで保存する方法\n\n以下のステップに従って、簡単に動画を保存できます：\n\n#### 1. **Douyinの動画リンクをコピー**\n- Douyinアプリまたはウェブサイトを開き、保存したい動画を見つけます。\n- 「共有」をタップし、「リンクをコピー」を選びます。\n\n#### 2. **TikGo.meにリンクを貼り付け**\n- ブラウザで [TikGo.me/ja/douyin](https://tikgo.me/ja/douyin) にアクセスします。\n- コピーしたリンクを入力欄に貼り付け、「ダウンロード」をクリックします。\n\n#### 3. **デバイスに動画を保存**\n- TikGoは自動的にウォーターマークを削除します。\n- 動画形式はMP4、音声のみをMP3で保存することも可能です。\n\nたった3ステップで、高品質の**Douyin動画をダウンロード**できます！",
+  
+  "extra_faq_title": "よくある質問（FAQ）",
+  "extra_faq": [
+    {
+      "faq_question": "TikGoの利用は無料ですか？",
+      "faq_answer": "はい、TikGoは完全無料で利用できます。アカウント登録や支払いは不要です。"
+    },
+    {
+      "faq_question": "ダウンロードした動画はどこに保存されますか？",
+      "faq_answer": "- **Android**：ギャラリーまたは「Download」フォルダーに保存されます。\n- **iPhone**：ファイルアプリまたは写真アプリに表示されます。\n- **PC/Mac**：通常、ダウンロードフォルダーに保存されます。"
+    },
+    {
+      "faq_question": "ダウンロード数に制限はありますか？",
+      "faq_answer": "制限はありません。何本でも好きなだけ動画をダウンロードできます。"
+    },
+    {
+      "faq_question": "追加のソフトウェアや拡張機能は必要ですか？",
+      "faq_answer": "不要です。TikGoは完全にオンラインで動作し、追加のインストールは不要です。"
+    },
+    {
+      "faq_question": "Douyin動画のダウンロードは合法ですか？",
+      "faq_answer": "個人利用であれば基本的に問題ありません。ただし、商用利用には著作権者の許可が必要です。"
+    }
+  ],
+  
+  "sum_content": "TikGo.meはDouyin動画を高画質でウォーターマークなしに保存できる最適なツールです。今すぐ使って、お気に入りの動画を無料でダウンロードしましょう！"
+}
+

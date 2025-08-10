@@ -15,6 +15,7 @@ const Footer = () => {
         { href: '/mp3', text: footerTexts.tiktok_mp3 },
         { href: '/slide', text: footerTexts.tiktok_slide },
         { href: '/story', text: footerTexts.tiktok_story },
+        { href: '/douyin', text: footerTexts.douyin_video },
       ],
     },
     {

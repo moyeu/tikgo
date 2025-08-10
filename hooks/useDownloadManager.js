@@ -2,62 +2,67 @@ import { useState } from 'react';
 import { fetchAndDownload } from '../utils/fetchBlob';
 import { fallbackDownload } from '../utils/proxyFallback';
 
-/**
- * Quản lý tải video qua Blob:
- * 1️⃣ Gọi /api/down?media=<b64>&bandwidth_saving=1  ➜ 302 ➜ CDN
- * 2️⃣ Nếu CDN trả lỗi/CORS ➜ fallbackDownload (proxy)
- * 3️⃣ File > 1 GB cũng đi thẳng proxy để tránh timeout dài
- */
 export default function useDownloadManager(userRegion, userIP) {
-  const [progress, setProgress] = useState(0);
-  const [cancelDownload, setCancelDownload] = useState(null);
+    const [progress, setProgress] = useState(0);
+    const [cancelDownload, setCancelDownload] = useState(null);
 
-  const handleVideoDownload = (media) => {
-    const { url: videoUrl, format, size } = media;
-    const randomNumber = Math.floor(Math.random() * (100000000 - 1000000) + 1000000);
-    const fileName = `tikgo.me-${randomNumber}.${format}`;
+    const handleVideoDownload = (media) => {
+        const { url: videoUrl, format, size } = media;
+        const randomNumber = Math.floor(Math.random() * (100000000 - 1000000) + 1000000);
+        const fileName = `tikgo.me-${randomNumber}.${format}`;
 
-    // Không có IP / region → báo lỗi
-    if (!userRegion || !userIP) {
-      //alert('⚠️ Không thể xác định vị trí của bạn. Vui lòng thử lại!');
-      return;
-    }
+        if (!userRegion || !userIP) {
+            alert("⚠️ Không thể xác định vị trí của bạn. Vui lòng thử lại!");
+            return;
+        }
 
-    // File lớn > 1 GB: proxy ngay
-    if (size && size > 1024 * 1024 * 1024) {
-      fallbackDownload(videoUrl, fileName, size, format, setProgress, userRegion, userIP);
-      return;
-    }
+        // ♻️ Nếu > 1024MB => tải qua Proxy
+        if (size && size > 1024 * 1024 * 1024) {
+            return fallbackDownload(
+                videoUrl,
+                fileName,
+                size,
+                format,
+                setProgress,
+                userRegion,
+                userIP
+            );
+        }
 
-    /* 🚀 URL redirect tiết kiệm băng thông */
-    const encoded     = btoa(videoUrl); // base64-url
-    const redirectUrl = `/api/down?media=${encoded}&bandwidth_saving=1`;
+        try {
+            const cancel = fetchAndDownload(videoUrl, fileName, size, setProgress, userRegion);
 
-    try {
-      const abort = fetchAndDownload(
-        redirectUrl,
-        fileName,
-        size,
-        setProgress,
-        userRegion,
-        /* onEarlyFail: chuyển sang proxy nếu 302 theo CDN vẫn lỗi */
-        () => fallbackDownload(videoUrl, fileName, size, format, setProgress, userRegion, userIP)
-      );
+            if (!cancel) {
+                return fallbackDownload(
+                    videoUrl,
+                    fileName,
+                    size,
+                    format,
+                    setProgress,
+                    userRegion,
+                    userIP
+                );
+            }
 
-      if (abort) {
-        // Bọc hàm huỷ để reset UI rồi xoá chính nó
-        const wrappedCancel = () => {
-          abort();                 // dừng fetch
-          setProgress(0);          // ẩn progress bar
-          setCancelDownload(null); // xoá reference
-        };
-        setCancelDownload(() => wrappedCancel);
-      }
-    } catch (err) {
-      // Bất kỳ lỗi nào khác → dùng proxy
-      fallbackDownload(videoUrl, fileName, size, format, setProgress, userRegion, userIP);
-    }
-  };
+            // ✅ Bọc cancel để UI reset ngay khi bấm
+            setCancelDownload(() => () => {
+                try { cancel(); } finally {
+                    setProgress(0);            // reset thanh tiến trình ngay
+                    setCancelDownload(null);   // ẩn nút Cancel ngay
+                }
+            });
+        } catch (error) {
+            fallbackDownload(
+                videoUrl,
+                fileName,
+                size,
+                format,
+                setProgress,
+                userRegion,
+                userIP
+            );
+        }
+    };
 
-  return { progress, handleVideoDownload, cancelDownload };
+    return { progress, handleVideoDownload, cancelDownload };
 }

@@ -1,0 +1,47 @@
+{
+
+  "nav_video": "Video",
+  "nav_mp3": "MP3",
+  "nav_slide": "Slide",
+  "nav_story": "Story",
+  
+  "service_name": "Téléchargeur Douyin",
+  "service_type": "Service de téléchargement de vidéos en ligne",
+  "service_output": "Fichier vidéo MP4",
+  
+  "meta_title": "Téléchargez des vidéos Douyin sans filigrane, gratuitement",
+  "meta_description": "TikGo.me - Site web offrant le téléchargement gratuit de vidéos Douyin sans filigrane, en qualité HD - 4K. Fonctionne sur tous les navigateurs populaires, compatible avec iPhone, Android, PC, MacOS...",
+  "meta_keywords": "Télécharger des vidéos Douyin, Téléchargez des vidéos Douyin sans filigrane, Téléchargeur Douyin",
+
+  "title": "Télécharger des vidéos Douyin",
+  "description": "Télécharger des vidéos de Douyin (TikTok chinois) sans filigranes, logos",
+
+  "extra_long_content": "## Téléchargeur Douyin gratuit sur TikGo.me\n\nVous souhaitez **télécharger des vidéos Douyin** rapidement et facilement ? TikGo.me est l’outil idéal pour enregistrer vos vidéos préférées en haute qualité, sans filigrane. Aucune installation n’est requise : le service fonctionne directement dans votre navigateur et est compatible avec iPhone, Android, Windows, MacOS et plus encore. TikGo vous permet de profiter d’un téléchargement fluide en Full HD, 2K ou même 4K.\n\n### Comment télécharger des vidéos Douyin sans filigrane\n\nVoici les étapes à suivre pour utiliser TikGo :\n\n#### 1. **Copier le lien de la vidéo Douyin**\n- Ouvrez Douyin sur l'application ou le site web et trouvez la vidéo que vous souhaitez.\n- Cliquez sur le bouton « Partager », puis sélectionnez « Copier le lien ».\n\n#### 2. **Coller le lien sur TikGo.me**\n- Rendez-vous sur [TikGo.me/fr/douyin](https://tikgo.me/fr/douyin) via votre navigateur.\n- Collez le lien copié dans le champ de recherche et cliquez sur **« Télécharger »**.\n\n#### 3. **Sauvegarder la vidéo sur votre appareil**\n- TikGo supprimera automatiquement tout filigrane présent sur la vidéo.\n- Vous pouvez choisir le format MP4 pour la vidéo ou MP3 pour l'audio uniquement.\n\nEn quelques secondes, vous pouvez **télécharger des vidéos Douyin sans marque de fabrique**, gratuitement et en haute résolution !",
+  
+  "extra_faq_title": "Foire aux questions (FAQ)",
+  "extra_faq": [
+    {
+      "faq_question": "TikGo est-il gratuit ?",
+      "faq_answer": "Oui ! TikGo est 100 % gratuit. Aucune inscription ou paiement n’est requis pour télécharger des vidéos depuis Douyin."
+    },
+    {
+      "faq_question": "Où sont enregistrées mes vidéos téléchargées ?",
+      "faq_answer": "- **Android** : Dans la galerie ou le dossier \"Download\".\n- **iPhone** : Dans l’app Fichiers ou Photos si la sauvegarde est automatique.\n- **PC/Mac** : Dans le dossier de téléchargements par défaut."
+    },
+    {
+      "faq_question": "Y a-t-il une limite de téléchargement ?",
+      "faq_answer": "Aucune ! Vous pouvez télécharger autant de vidéos Douyin que vous le souhaitez, sans restrictions."
+    },
+    {
+      "faq_question": "Dois-je installer un logiciel ou une extension ?",
+      "faq_answer": "Non. TikGo fonctionne intégralement en ligne, sans avoir besoin d’installer quoi que ce soit."
+    },
+    {
+      "faq_question": "Le téléchargement de vidéos Douyin est-il légal ?",
+      "faq_answer": "Pour un usage personnel, cela ne pose généralement pas de problème. Mais pour une utilisation commerciale, vous devez obtenir l’autorisation afin d’éviter toute violation des droits d’auteur."
+    }
+  ],
+  
+  "sum_content": "TikGo.me est le moyen le plus simple de télécharger des vidéos Douyin sans filigrane. Essayez-le dès maintenant et enregistrez vos vidéos préférées en quelques clics, gratuitement !"
+}
+
