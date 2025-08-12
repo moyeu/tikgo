@@ -17,8 +17,6 @@ Tikgo_Frontend/
 │   ├─ useDownloadManager.js
 │   
 ├─ pages/
-│   ├─ api/
-│       ├─ down.ts
 │   ├─ _app.js
 │   ├─ _document.js
 │   ├─ 404.js
