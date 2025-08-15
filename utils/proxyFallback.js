@@ -63,12 +63,21 @@ export function fallbackDownload(
   userIP,
   options
 ) {
-  if (!userRegion || userRegion === "Unknown" || userRegion === undefined) {
-    userRegion = "DE";
-  }
+  // ⛏️ Fix (B): BỎ ép "DE" — giữ nguyên userRegion nếu undefined/Unknown
+  /**console.debug("[proxyFallback] start", {
+    url: typeof url === "string" ? url.slice(0, 120) : url,
+    fileName,
+    fileSize,
+    fileExtension,
+    userRegion,
+  });
+  */
 
   const proxyServer = getProxyServer(userRegion);
+  //console.debug("[proxyFallback] selected proxy", { proxyServer, userRegion });
+
   if (!proxyServer || proxyServer.includes("example.com")) {
+    //console.warn("[proxyFallback] invalid proxy server, aborting.", { proxyServer });
     if (typeof setProgress === "function") setProgress(0);
     return;
   }
@@ -108,7 +117,12 @@ export function fallbackDownload(
   ).toString(enc.Hex);
 
   // Debug tùy chọn
-  try { localStorage.setItem("debug_encryptedData", encryptedData); } catch (_) {}
+  try {
+    // localStorage.setItem("debug_encryptedData", encryptedData);
+    //console.debug("[proxyFallback] payload encrypted & stored to localStorage", { ts: payload.timestamp });
+  } catch (_) {
+    //console.debug("[proxyFallback] localStorage not available for debug_encryptedData");
+  }
 
   // URL nhận tải
   const finalUrl = `${proxyServer}/download`;
@@ -125,6 +139,8 @@ export function fallbackDownload(
     // 'self'
     targetName = "_self";
   }
+
+  // console.debug("[proxyFallback] submit", { targetMode, targetName, finalUrl });
 
   // Submit form POST
   const form = document.createElement("form");
@@ -153,4 +169,6 @@ export function fallbackDownload(
   document.body.appendChild(form);
   form.submit();
   document.body.removeChild(form);
+
+  //console.debug("[proxyFallback] form submitted");
 }

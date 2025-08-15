@@ -47,11 +47,20 @@ export function fetchAndDownload(url, fileName = "video.mp4", fileSize, setProgr
     }
 
     if (data.error) {
-      // Lỗi thật sự → fallback proxy
+      // Lỗi thật sự → fallback proxy (Fix A: truyền đúng fileExtension + tham số)
       if (setProgress) setProgress(0);
       try { downloadWorker.terminate(); } catch (_) {}
       downloadWorker = null;
-      fallbackDownload(url, fileName, fileSize, setProgress, userRegion);
+
+      // Suy ra phần mở rộng từ fileName, mặc định 'mp4'
+      let ext = 'mp4';
+      const dot = fileName.lastIndexOf('.');
+      if (dot > -1 && dot < fileName.length - 1) {
+        ext = fileName.slice(dot + 1).split('?')[0].toLowerCase();
+      }
+
+      // ĐÚNG THỨ TỰ: (url, fileName, fileSize, fileExtension, setProgress, userRegion)
+      fallbackDownload(url, fileName, fileSize, ext, setProgress, userRegion);
     }
   };
 
