@@ -261,7 +261,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 If you have any questions or need help, please:
 - Open an issue on GitHub
 - Email: tikgodotme@gmail.com
-- Visit our website: [https://yourdomain.com/contact](https://tikgo.me/contact)
+- Visit our website: [https://tikgo.me/contact](https://tikgo.me/contact)
 
 ## 🗺️ Roadmap
 
