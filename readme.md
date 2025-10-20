@@ -245,9 +245,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👨‍💻 Author
 
-Your Name - [@yourhandle](https://twitter.com/yourhandle)
-
-Project Link: [https://github.com/yourusername/tikgo](https://github.com/yourusername/tikgo)
+- X.com: [@tikgome](https://x.com/tikgome)
+- Youtube: [https://www.youtube.com/@tikgome](https://www.youtube.com/@tikgome)
+- Project Link: [https://github.com/yourusername/tikgo](https://github.com/yourusername/tikgo)
 
 ## 🙏 Acknowledgments
 
@@ -260,8 +260,8 @@ Project Link: [https://github.com/yourusername/tikgo](https://github.com/youruse
 
 If you have any questions or need help, please:
 - Open an issue on GitHub
-- Email: support@yourdomain.com
-- Visit our website: https://yourdomain.com/contact
+- Email: tikgodotme@gmail.com
+- Visit our website: [https://yourdomain.com/contact](https://tikgo.me/contact)
 
 ## 🗺️ Roadmap
 
